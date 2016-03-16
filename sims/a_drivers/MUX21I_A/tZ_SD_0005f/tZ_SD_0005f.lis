@@ -1,0 +1,4221 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 10.1.1.164.isr11 64bit -- 12 Jul 2011
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved
+        worldwide. Cadence, Virtuoso and Spectre are registered trademarks of
+        Cadence Design Systems, Inc. All others are the property of their
+        respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
+        Security, Inc.
+
+User: mliang   Host: digisrv1   HostID: B8820766   PID: 14088
+Memory  available: 5.8094 GB  physical: 8.3780 GB
+CPU Type: Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz
+          Processor PhysicalID CoreID Frequency
+              0         0        0     2405.8
+              1         0        1     2405.8
+              2         0        2     2405.8
+              3         0        3     2405.8
+
+
+Simulating
+        `/home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/MUX21I_A/tZ_SD_0005f/tZ_SD_0005f.sp'
+        on digisrv1 at 3:02:58 PM, Fri Oct 17, 2014 (process id: 14088).
+
+Time for NDB Parsing: CPU = 396.64 ms, elapsed = 732.678 ms.
+Time accumulated: CPU = 396.64 ms, elapsed = 732.678 ms.
+Peak resident memory used = 51.9 Mbytes.
+
+
+Warning from spectre in `MUX21I_A', during circuit read-in.
+    WARNING (SFE-2453): The global node `gnd' and sub circuit terminal `GND'
+        will be treated as the sub circuit terminal.
+
+
+Time for Elaboration: CPU = 83.328 ms, elapsed = 122.819 ms.
+Time accumulated: CPU = 479.968 ms, elapsed = 856.054 ms.
+Peak resident memory used = 57 Mbytes.
+
+
+Time for EDB Visiting: CPU = 96.66 ms, elapsed = 106.7378521 ms.
+Time accumulated: CPU = 576.628 ms, elapsed = 963.0279541 ms.
+Peak resident memory used = 66.8 Mbytes.
+
+
+Notice from spectre during topology check.
+    Only one connection to node `0'.
+
+
+Circuit inventory:
+              nodes 16
+             iprobe 6     
+             assert 80    
+              bsim4 10    
+          capacitor 1     
+            vsource 10    
+
+
+Time for parsing: CPU = 3.333 ms, elapsed = 20.450115204 ms.
+Time accumulated: CPU = 579.961 ms, elapsed = 983.62803459 ms.
+Peak resident memory used = 67.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-000_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.3741541824 ns s.
+
+Number of accepted tran steps =             109
+Initial condition solution time: CPU = 0 s, elapsed = 1.5079975128 ms.
+Intrinsic tran analysis time:    CPU = 59.996 ms, elapsed = 142.53497124 ms.
+Total time required for tran analysis `transient1-000_transient1': CPU = 63.329
+        ms, elapsed = 150.29597282 ms.
+Time accumulated: CPU = 656.622 ms, elapsed = 1.2202179432 s.
+Peak resident memory used = 69.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-001_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.3966920034 ns s.
+
+Number of accepted tran steps =             103
+Initial condition solution time: CPU = 0 s, elapsed = 1.3601779938 ms.
+Intrinsic tran analysis time:    CPU = 63.33 ms, elapsed = 136.2080574 ms.
+Total time required for tran analysis `transient1-001_transient1': CPU = 63.33
+        ms, elapsed = 143.30816269 ms.
+Time accumulated: CPU = 726.619 ms, elapsed = 1.3869769573 s.
+Peak resident memory used = 69.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-002_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.3859568929 ns s.
+
+Number of accepted tran steps =             101
+Initial condition solution time: CPU = 0 s, elapsed = 1.3959407806 ms.
+Intrinsic tran analysis time:    CPU = 63.329 ms, elapsed = 284.51395035 ms.
+Total time required for tran analysis `transient1-002_transient1': CPU = 66.662
+        ms, elapsed = 290.46702385 ms.
+Time accumulated: CPU = 803.28 ms, elapsed = 1.7667279243 s.
+Peak resident memory used = 69.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-003_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.3917692381 ns s.
+
+Number of accepted tran steps =             103
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3020038605 ms.
+Intrinsic tran analysis time:    CPU = 63.329 ms, elapsed = 174.25608635 ms.
+Total time required for tran analysis `transient1-003_transient1': CPU = 66.662
+        ms, elapsed = 206.71606064 ms.
+Time accumulated: CPU = 879.942 ms, elapsed = 2.0090451241 s.
+Peak resident memory used = 69.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-004_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.4004108919 ns s.
+
+Number of accepted tran steps =             107
+Initial condition solution time: CPU = 0 s, elapsed = 1.6829967499 ms.
+Intrinsic tran analysis time:    CPU = 66.662 ms, elapsed = 168.86806488 ms.
+Total time required for tran analysis `transient1-004_transient1': CPU = 69.995
+        ms, elapsed = 179.40592766 ms.
+Time accumulated: CPU = 959.937 ms, elapsed = 2.239661932 s.
+Peak resident memory used = 69.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-005_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.4043067489 ns s.
+
+Number of accepted tran steps =             106
+Initial condition solution time: CPU = 3.333 ms, elapsed = 3.77202034 ms.
+Intrinsic tran analysis time:    CPU = 59.996 ms, elapsed = 208.49204063 ms.
+Total time required for tran analysis `transient1-005_transient1': CPU = 63.329
+        ms, elapsed = 221.16994858 ms.
+Time accumulated: CPU = 1.029932 s, elapsed = 2.4832351208 s.
+Peak resident memory used = 69.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-006_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.410579129 ns s.
+
+Number of accepted tran steps =             101
+Initial condition solution time: CPU = 0 s, elapsed = 4.2119026184 ms.
+Intrinsic tran analysis time:    CPU = 56.663 ms, elapsed = 92.703104019 ms.
+Total time required for tran analysis `transient1-006_transient1': CPU = 59.996
+        ms, elapsed = 109.23504829 ms.
+Time accumulated: CPU = 1.099927 s, elapsed = 2.7541401386 s.
+Peak resident memory used = 70 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-007_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4164950512 ns s.
+
+Number of accepted tran steps =             102
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.7371177673 ms.
+Intrinsic tran analysis time:    CPU = 56.662 ms, elapsed = 75.636863708 ms.
+Total time required for tran analysis `transient1-007_transient1': CPU = 63.328
+        ms, elapsed = 83.206176758 ms.
+Time accumulated: CPU = 1.173255 s, elapsed = 2.9730930328 s.
+Peak resident memory used = 70.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-008_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.3871996267 ns s.
+
+Number of accepted tran steps =             100
+Initial condition solution time: CPU = 3.334 ms, elapsed = 2.2418498993 ms.
+Intrinsic tran analysis time:    CPU = 53.329 ms, elapsed = 155.84802628 ms.
+Total time required for tran analysis `transient1-008_transient1': CPU = 59.996
+        ms, elapsed = 167.85407066 ms.
+Time accumulated: CPU = 1.239918 s, elapsed = 3.3003690243 s.
+Peak resident memory used = 70.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-009_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.3949296152 ns s.
+
+Number of accepted tran steps =             102
+Initial condition solution time: CPU = 0 s, elapsed = 2.1650791168 ms.
+Intrinsic tran analysis time:    CPU = 56.663 ms, elapsed = 87.728023529 ms.
+Total time required for tran analysis `transient1-009_transient1': CPU = 63.329
+        ms, elapsed = 96.24004364 ms.
+Time accumulated: CPU = 1.309914 s, elapsed = 3.4505031109 s.
+Peak resident memory used = 70.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-010_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.3999696819 ns s.
+
+Number of accepted tran steps =             98
+Initial condition solution time: CPU = 0 s, elapsed = 1.9681453705 ms.
+Intrinsic tran analysis time:    CPU = 69.996 ms, elapsed = 155.64703941 ms.
+Total time required for tran analysis `transient1-010_transient1': CPU = 73.329
+        ms, elapsed = 166.41807556 ms.
+Time accumulated: CPU = 1.393242 s, elapsed = 3.6744670868 s.
+Peak resident memory used = 70.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-011_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.4061124591 ns s.
+
+Number of accepted tran steps =             100
+Initial condition solution time: CPU = 0 s, elapsed = 4.2331218719 ms.
+Intrinsic tran analysis time:    CPU = 53.33 ms, elapsed = 129.47297096 ms.
+Total time required for tran analysis `transient1-011_transient1': CPU = 56.663
+        ms, elapsed = 139.31798935 ms.
+Time accumulated: CPU = 1.456571 s, elapsed = 3.8505589962 s.
+Peak resident memory used = 70.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-012_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4316135693 ns s.
+
+Number of accepted tran steps =             94
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3771057129 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 89.986085892 ms.
+Total time required for tran analysis `transient1-012_transient1': CPU = 53.33
+        ms, elapsed = 98.358869553 ms.
+Time accumulated: CPU = 1.5199 s, elapsed = 4.0040049553 s.
+Peak resident memory used = 70.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-013_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.420671442 ns s.
+
+Number of accepted tran steps =             97
+Initial condition solution time: CPU = 0 s, elapsed = 3.7097930908 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 81.012964249 ms.
+Total time required for tran analysis `transient1-013_transient1': CPU = 53.33
+        ms, elapsed = 98.504066467 ms.
+Time accumulated: CPU = 1.586562 s, elapsed = 4.1334869862 s.
+Peak resident memory used = 71 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-014_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4248239773 ns s.
+
+Number of accepted tran steps =             97
+Initial condition solution time: CPU = 0 s, elapsed = 1.3058185577 ms.
+Intrinsic tran analysis time:    CPU = 59.996 ms, elapsed = 144.47379112 ms.
+Total time required for tran analysis `transient1-014_transient1': CPU = 63.329
+        ms, elapsed = 155.98702431 ms.
+Time accumulated: CPU = 1.65989 s, elapsed = 4.3121790886 s.
+Peak resident memory used = 71.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-015_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4505662536 ns s.
+
+Number of accepted tran steps =             93
+Initial condition solution time: CPU = 0 s, elapsed = 1.3709068298 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 73.563098907 ms.
+Total time required for tran analysis `transient1-015_transient1': CPU = 49.996
+        ms, elapsed = 89.406967163 ms.
+Time accumulated: CPU = 1.719886 s, elapsed = 4.4430480003 s.
+Peak resident memory used = 71.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-016_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9....
+`AutoStop = yes'. Analysis finished at 6.4029533553 ns s.
+
+Number of accepted tran steps =             92
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.2722015381 ms.
+Intrinsic tran analysis time:    CPU = 56.663 ms, elapsed = 262.12191582 ms.
+Total time required for tran analysis `transient1-016_transient1': CPU = 63.329
+        ms, elapsed = 267.7090168 ms.
+Time accumulated: CPU = 1.793216 s, elapsed = 4.7356390953 s.
+Peak resident memory used = 71.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-017_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4105717315 ns s.
+
+Number of accepted tran steps =             94
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3289451599 ms.
+Intrinsic tran analysis time:    CPU = 53.33 ms, elapsed = 112.63298988 ms.
+Total time required for tran analysis `transient1-017_transient1': CPU = 59.996
+        ms, elapsed = 118.36314201 ms.
+Time accumulated: CPU = 1.863211 s, elapsed = 4.8916089535 s.
+Peak resident memory used = 71.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-018_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4184877986 ns s.
+
+Number of accepted tran steps =             97
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3990402222 ms.
+Intrinsic tran analysis time:    CPU = 59.997 ms, elapsed = 158.44511986 ms.
+Total time required for tran analysis `transient1-018_transient1': CPU = 66.663
+        ms, elapsed = 168.68805885 ms.
+Time accumulated: CPU = 1.93654 s, elapsed = 5.0842051506 s.
+Peak resident memory used = 71.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-019_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4247842238 ns s.
+
+Number of accepted tran steps =             93
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.659154892 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 81.505060196 ms.
+Total time required for tran analysis `transient1-019_transient1': CPU = 56.662
+        ms, elapsed = 227.81205177 ms.
+Time accumulated: CPU = 1.999868 s, elapsed = 5.3881270885 s.
+Peak resident memory used = 71.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-020_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4280486921 ns s.
+
+Number of accepted tran steps =             91
+Initial condition solution time: CPU = 0 s, elapsed = 1.4839172363 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 69.422006607 ms.
+Total time required for tran analysis `transient1-020_transient1': CPU = 53.33
+        ms, elapsed = 76.779842377 ms.
+Time accumulated: CPU = 2.066531 s, elapsed = 5.4893200397 s.
+Peak resident memory used = 72 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-021_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4521557562 ns s.
+
+Number of accepted tran steps =             88
+Initial condition solution time: CPU = 0 s, elapsed = 1.3060569763 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 58.803081512 ms.
+Total time required for tran analysis `transient1-021_transient1': CPU = 53.33
+        ms, elapsed = 65.649986267 ms.
+Time accumulated: CPU = 2.126527 s, elapsed = 5.5744791031 s.
+Peak resident memory used = 72.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-022_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4587070048 ns s.
+
+Number of accepted tran steps =             92
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.5549659729 ms.
+Intrinsic tran analysis time:    CPU = 53.331 ms, elapsed = 86.16399765 ms.
+Total time required for tran analysis `transient1-022_transient1': CPU = 63.33
+        ms, elapsed = 94.476938248 ms.
+Time accumulated: CPU = 2.199856 s, elapsed = 5.6898851395 s.
+Peak resident memory used = 72.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-023_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4483925683 ns s.
+
+Number of accepted tran steps =             91
+Initial condition solution time: CPU = 3.333 ms, elapsed = 3.947019577 ms.
+Intrinsic tran analysis time:    CPU = 56.663 ms, elapsed = 139.65797424 ms.
+Total time required for tran analysis `transient1-023_transient1': CPU = 63.329
+        ms, elapsed = 158.18119049 ms.
+Time accumulated: CPU = 2.269851 s, elapsed = 6.0075600147 s.
+Peak resident memory used = 72.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-024_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4264605328 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 0 s, elapsed = 2.8400421143 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 50.307035446 ms.
+Total time required for tran analysis `transient1-024_transient1': CPU = 53.33
+        ms, elapsed = 68.407058716 ms.
+Time accumulated: CPU = 2.33318 s, elapsed = 6.1119379997 s.
+Peak resident memory used = 72.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-025_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4195022809 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3158321381 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 71.816921234 ms.
+Total time required for tran analysis `transient1-025_transient1': CPU = 53.33
+        ms, elapsed = 81.021785736 ms.
+Time accumulated: CPU = 2.393176 s, elapsed = 6.2855770588 s.
+Peak resident memory used = 72.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-026_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4243935909 ns s.
+
+Number of accepted tran steps =             90
+Initial condition solution time: CPU = 0 s, elapsed = 1.2638568878 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 67.049980164 ms.
+Total time required for tran analysis `transient1-026_transient1': CPU = 49.997
+        ms, elapsed = 75.839042664 ms.
+Time accumulated: CPU = 2.456505 s, elapsed = 6.4305860996 s.
+Peak resident memory used = 72.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-027_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4316666453 ns s.
+
+Number of accepted tran steps =             92
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3110637665 ms.
+Intrinsic tran analysis time:    CPU = 53.329 ms, elapsed = 132.35402107 ms.
+Total time required for tran analysis `transient1-027_transient1': CPU = 59.996
+        ms, elapsed = 154.65188026 ms.
+Time accumulated: CPU = 2.523167 s, elapsed = 6.6092381477 s.
+Peak resident memory used = 72.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-028_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4520564876 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 0 s, elapsed = 1.2798309326 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 94.955921173 ms.
+Total time required for tran analysis `transient1-028_transient1': CPU = 49.997
+        ms, elapsed = 107.03706741 ms.
+Time accumulated: CPU = 2.583164 s, elapsed = 6.7466471195 s.
+Peak resident memory used = 73.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-029_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4585107629 ns s.
+
+Number of accepted tran steps =             91
+Initial condition solution time: CPU = 3.333 ms, elapsed = 2.3610591888 ms.
+Intrinsic tran analysis time:    CPU = 53.33 ms, elapsed = 58.18605423 ms.
+Total time required for tran analysis `transient1-029_transient1': CPU = 56.663
+        ms, elapsed = 109.552145 ms.
+Time accumulated: CPU = 2.649827 s, elapsed = 6.9311330318 s.
+Peak resident memory used = 73.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-030_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.448176668 ns s.
+
+Number of accepted tran steps =             90
+Initial condition solution time: CPU = 0 s, elapsed = 3.7159919739 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 48.697948456 ms.
+Total time required for tran analysis `transient1-030_transient1': CPU = 49.997
+        ms, elapsed = 61.769962311 ms.
+Time accumulated: CPU = 2.709823 s, elapsed = 7.0390100479 s.
+Peak resident memory used = 73.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-031_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4578181665 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 0 s, elapsed = 2.5761127472 ms.
+Intrinsic tran analysis time:    CPU = 59.996 ms, elapsed = 109.18998718 ms.
+Total time required for tran analysis `transient1-031_transient1': CPU = 66.662
+        ms, elapsed = 126.96099281 ms.
+Time accumulated: CPU = 2.786484 s, elapsed = 7.2266249657 s.
+Peak resident memory used = 73.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-032_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4326875678 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.4810562134 ms.
+Intrinsic tran analysis time:    CPU = 49.998 ms, elapsed = 62.452793121 ms.
+Total time required for tran analysis `transient1-032_transient1': CPU = 56.664
+        ms, elapsed = 88.970184326 ms.
+Time accumulated: CPU = 2.849814 s, elapsed = 7.4133911133 s.
+Peak resident memory used = 73.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-033_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4375808465 ns s.
+
+Number of accepted tran steps =             92
+Initial condition solution time: CPU = 0 s, elapsed = 2.6488304138 ms.
+Intrinsic tran analysis time:    CPU = 53.33 ms, elapsed = 66.795825958 ms.
+Total time required for tran analysis `transient1-033_transient1': CPU = 56.663
+        ms, elapsed = 82.510948181 ms.
+Time accumulated: CPU = 2.919809 s, elapsed = 7.537541151 s.
+Peak resident memory used = 73.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-034_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.444227657 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 3.333 ms, elapsed = 3.9839744568 ms.
+Intrinsic tran analysis time:    CPU = 53.33 ms, elapsed = 243.99495125 ms.
+Total time required for tran analysis `transient1-034_transient1': CPU = 56.663
+        ms, elapsed = 278.96499634 ms.
+Time accumulated: CPU = 2.986471 s, elapsed = 7.9550359249 s.
+Peak resident memory used = 73.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-035_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4516096475 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3210773468 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 58.336019516 ms.
+Total time required for tran analysis `transient1-035_transient1': CPU = 53.33
+        ms, elapsed = 77.850103378 ms.
+Time accumulated: CPU = 3.046467 s, elapsed = 8.1972160339 s.
+Peak resident memory used = 74 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-036_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4737370254 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 0 s, elapsed = 1.3551712036 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 93.04189682 ms.
+Total time required for tran analysis `transient1-036_transient1': CPU = 53.33
+        ms, elapsed = 116.50586128 ms.
+Time accumulated: CPU = 3.109796 s, elapsed = 8.3518841267 s.
+Peak resident memory used = 74.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-037_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4665469716 ns s.
+
+Number of accepted tran steps =             88
+Initial condition solution time: CPU = 0 s, elapsed = 1.3010501862 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 53.912162781 ms.
+Total time required for tran analysis `transient1-037_transient1': CPU = 53.33
+        ms, elapsed = 77.121973038 ms.
+Time accumulated: CPU = 3.173125 s, elapsed = 8.6144330502 s.
+Peak resident memory used = 74.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-038_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4724160003 ns s.
+
+Number of accepted tran steps =             95
+Initial condition solution time: CPU = 3.333 ms, elapsed = 2.3670196533 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 51.536083221 ms.
+Total time required for tran analysis `transient1-038_transient1': CPU = 53.329
+        ms, elapsed = 67.446947098 ms.
+Time accumulated: CPU = 3.236454 s, elapsed = 8.7344739437 s.
+Peak resident memory used = 74.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-039_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4950688955 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 0 s, elapsed = 1.3818740845 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 182.23595619 ms.
+Total time required for tran analysis `transient1-039_transient1': CPU = 56.663
+        ms, elapsed = 191.41316414 ms.
+Time accumulated: CPU = 3.299784 s, elapsed = 9.0044569969 s.
+Peak resident memory used = 74.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-040_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4465733362 ns s.
+
+Number of accepted tran steps =             93
+Initial condition solution time: CPU = 0 s, elapsed = 2.9489994049 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 98.139047623 ms.
+Total time required for tran analysis `transient1-040_transient1': CPU = 56.663
+        ms, elapsed = 138.22484016 ms.
+Time accumulated: CPU = 3.363113 s, elapsed = 9.1726379395 s.
+Peak resident memory used = 74.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-041_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4555114557 ns s.
+
+Number of accepted tran steps =             94
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3189315796 ms.
+Intrinsic tran analysis time:    CPU = 56.664 ms, elapsed = 146.64697647 ms.
+Total time required for tran analysis `transient1-041_transient1': CPU = 59.997
+        ms, elapsed = 165.13180733 ms.
+Time accumulated: CPU = 3.429776 s, elapsed = 9.4315500259 s.
+Peak resident memory used = 74.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-042_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4627024036 ns s.
+
+Number of accepted tran steps =             94
+Initial condition solution time: CPU = 0 s, elapsed = 1.2500286102 ms.
+Intrinsic tran analysis time:    CPU = 59.996 ms, elapsed = 326.35593414 ms.
+Total time required for tran analysis `transient1-042_transient1': CPU = 63.329
+        ms, elapsed = 372.15089798 ms.
+Time accumulated: CPU = 3.503104 s, elapsed = 9.8436889648 s.
+Peak resident memory used = 75 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-043_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4658894386 ns s.
+
+Number of accepted tran steps =             102
+Initial condition solution time: CPU = 3.333 ms, elapsed = 3.6180019379 ms.
+Intrinsic tran analysis time:    CPU = 53.329 ms, elapsed = 58.704137802 ms.
+Total time required for tran analysis `transient1-043_transient1': CPU = 59.996
+        ms, elapsed = 100.53396225 ms.
+Time accumulated: CPU = 3.5731 s, elapsed = 9.9821960926 s.
+Peak resident memory used = 75.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-044_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4745425006 ns s.
+
+Number of accepted tran steps =             98
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.2929439545 ms.
+Intrinsic tran analysis time:    CPU = 63.329 ms, elapsed = 174.6108532 ms.
+Total time required for tran analysis `transient1-044_transient1': CPU = 66.662
+        ms, elapsed = 184.81492996 ms.
+Time accumulated: CPU = 3.646428 s, elapsed = 10.289247036 s.
+Peak resident memory used = 75.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-045_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4769522283 ns s.
+
+Number of accepted tran steps =             97
+Initial condition solution time: CPU = 0 s, elapsed = 5.5229663849 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 103.64103317 ms.
+Total time required for tran analysis `transient1-045_transient1': CPU = 53.329
+        ms, elapsed = 121.57392502 ms.
+Time accumulated: CPU = 3.709757 s, elapsed = 10.465953112 s.
+Peak resident memory used = 75.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-046_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5017491953 ns s.
+
+Number of accepted tran steps =             91
+Initial condition solution time: CPU = 0 s, elapsed = 2.6040077209 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 53.699970245 ms.
+Total time required for tran analysis `transient1-046_transient1': CPU = 49.996
+        ms, elapsed = 62.138080597 ms.
+Time accumulated: CPU = 3.769753 s, elapsed = 10.54582715 s.
+Peak resident memory used = 75.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-047_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4944153098 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 0 s, elapsed = 1.4319419861 ms.
+Intrinsic tran analysis time:    CPU = 56.663 ms, elapsed = 128.65304947 ms.
+Total time required for tran analysis `transient1-047_transient1': CPU = 59.996
+        ms, elapsed = 135.81395149 ms.
+Time accumulated: CPU = 3.839749 s, elapsed = 10.701097012 s.
+Peak resident memory used = 75.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-048_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4640838963 ns s.
+
+Number of accepted tran steps =             91
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.2800693512 ms.
+Intrinsic tran analysis time:    CPU = 59.996 ms, elapsed = 159.6968174 ms.
+Total time required for tran analysis `transient1-048_transient1': CPU = 66.662
+        ms, elapsed = 173.90203476 ms.
+Time accumulated: CPU = 3.91641 s, elapsed = 10.892297983 s.
+Peak resident memory used = 75.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-049_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4865027094 ns s.
+
+Number of accepted tran steps =             97
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.2769699097 ms.
+Intrinsic tran analysis time:    CPU = 56.663 ms, elapsed = 132.27891922 ms.
+Total time required for tran analysis `transient1-049_transient1': CPU = 63.33
+        ms, elapsed = 139.89305496 ms.
+Time accumulated: CPU = 3.983073 s, elapsed = 11.063341141 s.
+Peak resident memory used = 75.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-050_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4730798452 ns s.
+
+Number of accepted tran steps =             106
+Initial condition solution time: CPU = 0 s, elapsed = 1.363992691 ms.
+Intrinsic tran analysis time:    CPU = 56.663 ms, elapsed = 109.39598083 ms.
+Total time required for tran analysis `transient1-050_transient1': CPU = 63.329
+        ms, elapsed = 122.15209007 ms.
+Time accumulated: CPU = 4.053068 s, elapsed = 11.220582962 s.
+Peak resident memory used = 76.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-051_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4792936841 ns s.
+
+Number of accepted tran steps =             95
+Initial condition solution time: CPU = 0 s, elapsed = 4.1251182556 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 67.058086395 ms.
+Total time required for tran analysis `transient1-051_transient1': CPU = 53.33
+        ms, elapsed = 79.081058502 ms.
+Time accumulated: CPU = 4.116397 s, elapsed = 11.340359926 s.
+Peak resident memory used = 76.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-052_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4880441107 ns s.
+
+Number of accepted tran steps =             97
+Initial condition solution time: CPU = 3.333 ms, elapsed = 3.6470890045 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 78.46903801 ms.
+Total time required for tran analysis `transient1-052_transient1': CPU = 53.33
+        ms, elapsed = 89.956998825 ms.
+Time accumulated: CPU = 4.179727 s, elapsed = 11.464995146 s.
+Peak resident memory used = 76.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-053_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4940666664 ns s.
+
+Number of accepted tran steps =             90
+Initial condition solution time: CPU = 0 s, elapsed = 1.3039112091 ms.
+Intrinsic tran analysis time:    CPU = 53.33 ms, elapsed = 146.45290375 ms.
+Total time required for tran analysis `transient1-053_transient1': CPU = 59.996
+        ms, elapsed = 152.36401558 ms.
+Time accumulated: CPU = 4.249722 s, elapsed = 11.681530952 s.
+Peak resident memory used = 76.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-054_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5018596274 ns s.
+
+Number of accepted tran steps =             98
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.2850761414 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 87.022066116 ms.
+Total time required for tran analysis `transient1-054_transient1': CPU = 56.663
+        ms, elapsed = 96.302032471 ms.
+Time accumulated: CPU = 4.313051 s, elapsed = 11.800908089 s.
+Peak resident memory used = 76.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-055_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5055786164 ns s.
+
+Number of accepted tran steps =             95
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.434803009 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 95.398187637 ms.
+Total time required for tran analysis `transient1-055_transient1': CPU = 53.33
+        ms, elapsed = 105.71908951 ms.
+Time accumulated: CPU = 4.373047 s, elapsed = 11.941758156 s.
+Peak resident memory used = 76.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-056_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4768965143 ns s.
+
+Number of accepted tran steps =             90
+Initial condition solution time: CPU = 0 s, elapsed = 1.9130706787 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 80.053091049 ms.
+Total time required for tran analysis `transient1-056_transient1': CPU = 53.329
+        ms, elapsed = 86.977005005 ms.
+Time accumulated: CPU = 4.436376 s, elapsed = 12.050217152 s.
+Peak resident memory used = 76.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-057_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4802121465 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 0 s, elapsed = 1.3439655304 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 50.07481575 ms.
+Total time required for tran analysis `transient1-057_transient1': CPU = 49.997
+        ms, elapsed = 56.922912598 ms.
+Time accumulated: CPU = 4.493039 s, elapsed = 12.126033068 s.
+Peak resident memory used = 77 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-058_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4886140819 ns s.
+
+Number of accepted tran steps =             88
+Initial condition solution time: CPU = 3.333 ms, elapsed = 3.7920475006 ms.
+Intrinsic tran analysis time:    CPU = 53.331 ms, elapsed = 65.642118454 ms.
+Total time required for tran analysis `transient1-058_transient1': CPU = 56.664
+        ms, elapsed = 76.382160187 ms.
+Time accumulated: CPU = 4.559702 s, elapsed = 12.258980036 s.
+Peak resident memory used = 77.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-059_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4953949456 ns s.
+
+Number of accepted tran steps =             90
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.37591362 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 76.283931732 ms.
+Total time required for tran analysis `transient1-059_transient1': CPU = 53.33
+        ms, elapsed = 82.347869873 ms.
+Time accumulated: CPU = 4.623031 s, elapsed = 12.359629154 s.
+Peak resident memory used = 77.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-060_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5037440178 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 0 s, elapsed = 1.275062561 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 77.954053879 ms.
+Total time required for tran analysis `transient1-060_transient1': CPU = 53.33
+        ms, elapsed = 157.25016594 ms.
+Time accumulated: CPU = 4.683027 s, elapsed = 12.535864115 s.
+Peak resident memory used = 77.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-061_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5083194544 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 0 s, elapsed = 1.3279914856 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 251.03211403 ms.
+Total time required for tran analysis `transient1-061_transient1': CPU = 49.997
+        ms, elapsed = 259.06205177 ms.
+Time accumulated: CPU = 4.743023 s, elapsed = 12.822592974 s.
+Peak resident memory used = 77.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-062_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5341383223 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 0 s, elapsed = 1.296043396 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 48.748016357 ms.
+Total time required for tran analysis `transient1-062_transient1': CPU = 49.996
+        ms, elapsed = 69.557905197 ms.
+Time accumulated: CPU = 4.803019 s, elapsed = 12.921883106 s.
+Peak resident memory used = 77.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-063_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5220568796 ns s.
+
+Number of accepted tran steps =             90
+Initial condition solution time: CPU = 3.333 ms, elapsed = 4.115819931 ms.
+Intrinsic tran analysis time:    CPU = 53.33 ms, elapsed = 146.3470459 ms.
+Total time required for tran analysis `transient1-063_transient1': CPU = 59.996
+        ms, elapsed = 159.48295593 ms.
+Time accumulated: CPU = 4.869682 s, elapsed = 13.131984949 s.
+Peak resident memory used = 77.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-064_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4899235503 ns s.
+
+Number of accepted tran steps =             82
+Initial condition solution time: CPU = 3.333 ms, elapsed = 4.077911377 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 145.35117149 ms.
+Total time required for tran analysis `transient1-064_transient1': CPU = 56.663
+        ms, elapsed = 175.44984818 ms.
+Time accumulated: CPU = 4.936344 s, elapsed = 13.351130009 s.
+Peak resident memory used = 78 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-065_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.4998871939 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 3.333 ms, elapsed = 5.490064621 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 98.582983017 ms.
+Total time required for tran analysis `transient1-065_transient1': CPU = 53.33
+        ms, elapsed = 143.89204979 ms.
+Time accumulated: CPU = 4.99634 s, elapsed = 13.527655125 s.
+Peak resident memory used = 78.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-066_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.510171866 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 0 s, elapsed = 4.7149658203 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 56.89406395 ms.
+Total time required for tran analysis `transient1-066_transient1': CPU = 53.33
+        ms, elapsed = 76.450109482 ms.
+Time accumulated: CPU = 5.059669 s, elapsed = 13.771203041 s.
+Peak resident memory used = 78.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-067_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5095655948 ns s.
+
+Number of accepted tran steps =             87
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3248920441 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 77.230215073 ms.
+Total time required for tran analysis `transient1-067_transient1': CPU = 53.33
+        ms, elapsed = 98.566055298 ms.
+Time accumulated: CPU = 5.119665 s, elapsed = 13.890151978 s.
+Peak resident memory used = 78.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-068_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5300887026 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 3.333 ms, elapsed = 5.1190853119 ms.
+Intrinsic tran analysis time:    CPU = 56.663 ms, elapsed = 176.7988205 ms.
+Total time required for tran analysis `transient1-068_transient1': CPU = 63.329
+        ms, elapsed = 234.8151207 ms.
+Time accumulated: CPU = 5.192994 s, elapsed = 14.336849928 s.
+Peak resident memory used = 78.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-069_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5223385943 ns s.
+
+Number of accepted tran steps =             87
+Initial condition solution time: CPU = 0 s, elapsed = 1.7108917236 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 84.648132324 ms.
+Total time required for tran analysis `transient1-069_transient1': CPU = 56.663
+        ms, elapsed = 100.08907318 ms.
+Time accumulated: CPU = 5.256323 s, elapsed = 14.47726202 s.
+Peak resident memory used = 78.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-070_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5302433912 ns s.
+
+Number of accepted tran steps =             90
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3680458069 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 156.25095367 ms.
+Total time required for tran analysis `transient1-070_transient1': CPU = 56.662
+        ms, elapsed = 176.54919624 ms.
+Time accumulated: CPU = 5.319652 s, elapsed = 14.699749947 s.
+Peak resident memory used = 78.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-071_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5383114355 ns s.
+
+Number of accepted tran steps =             91
+Initial condition solution time: CPU = 0 s, elapsed = 2.7620792389 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 52.589893341 ms.
+Total time required for tran analysis `transient1-071_transient1': CPU = 53.329
+        ms, elapsed = 60.950040817 ms.
+Time accumulated: CPU = 5.382981 s, elapsed = 14.780821085 s.
+Peak resident memory used = 78.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-072_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5227899873 ns s.
+
+Number of accepted tran steps =             84
+Initial condition solution time: CPU = 0 s, elapsed = 5.14793396 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 61.352968216 ms.
+Total time required for tran analysis `transient1-072_transient1': CPU = 53.329
+        ms, elapsed = 81.388950348 ms.
+Time accumulated: CPU = 5.44631 s, elapsed = 14.897602081 s.
+Peak resident memory used = 79.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-073_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5227899873 ns s.
+
+Number of accepted tran steps =             84
+Initial condition solution time: CPU = 0 s, elapsed = 1.5158653259 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 65.585851669 ms.
+Total time required for tran analysis `transient1-073_transient1': CPU = 49.996
+        ms, elapsed = 72.282075882 ms.
+Time accumulated: CPU = 5.506306 s, elapsed = 15.005840063 s.
+Peak resident memory used = 79.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-074_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5473949997 ns s.
+
+Number of accepted tran steps =             82
+Initial condition solution time: CPU = 0 s, elapsed = 1.2798309326 ms.
+Intrinsic tran analysis time:    CPU = 43.33 ms, elapsed = 45.317173004 ms.
+Total time required for tran analysis `transient1-074_transient1': CPU = 49.996
+        ms, elapsed = 52.804946899 ms.
+Time accumulated: CPU = 5.562969 s, elapsed = 15.07742095 s.
+Peak resident memory used = 79.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-075_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5390761433 ns s.
+
+Number of accepted tran steps =             90
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3158321381 ms.
+Intrinsic tran analysis time:    CPU = 49.998 ms, elapsed = 52.222967148 ms.
+Total time required for tran analysis `transient1-075_transient1': CPU = 53.331
+        ms, elapsed = 77.203989029 ms.
+Time accumulated: CPU = 5.622966 s, elapsed = 15.202438116 s.
+Peak resident memory used = 79.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-076_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5535261667 ns s.
+
+Number of accepted tran steps =             87
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.5790462494 ms.
+Intrinsic tran analysis time:    CPU = 53.33 ms, elapsed = 65.669059753 ms.
+Total time required for tran analysis `transient1-076_transient1': CPU = 56.663
+        ms, elapsed = 72.606801987 ms.
+Time accumulated: CPU = 5.686295 s, elapsed = 15.298578024 s.
+Peak resident memory used = 79.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-077_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5527736886 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 0 s, elapsed = 1.3771057129 ms.
+Intrinsic tran analysis time:    CPU = 43.33 ms, elapsed = 58.387041092 ms.
+Total time required for tran analysis `transient1-077_transient1': CPU = 46.663
+        ms, elapsed = 64.192056656 ms.
+Time accumulated: CPU = 5.742958 s, elapsed = 15.464761972 s.
+Peak resident memory used = 79.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-078_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5587328695 ns s.
+
+Number of accepted tran steps =             84
+Initial condition solution time: CPU = 3.334 ms, elapsed = 1.3818740845 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 59.40079689 ms.
+Total time required for tran analysis `transient1-078_transient1': CPU = 53.33
+        ms, elapsed = 79.066991806 ms.
+Time accumulated: CPU = 5.802954 s, elapsed = 15.662150145 s.
+Peak resident memory used = 79.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-079_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5830344975 ns s.
+
+Number of accepted tran steps =             87
+Initial condition solution time: CPU = 0 s, elapsed = 1.3570785522 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 53.089141846 ms.
+Total time required for tran analysis `transient1-079_transient1': CPU = 53.33
+        ms, elapsed = 62.043905258 ms.
+Time accumulated: CPU = 5.866283 s, elapsed = 15.747226954 s.
+Peak resident memory used = 80 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-080_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5662740543 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 0 s, elapsed = 1.7309188843 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 98.196983337 ms.
+Total time required for tran analysis `transient1-080_transient1': CPU = 53.33
+        ms, elapsed = 126.0471344 ms.
+Time accumulated: CPU = 5.926279 s, elapsed = 15.907582998 s.
+Peak resident memory used = 80.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-081_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5665959971 ns s.
+
+Number of accepted tran steps =             84
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3861656189 ms.
+Intrinsic tran analysis time:    CPU = 43.33 ms, elapsed = 47.18708992 ms.
+Total time required for tran analysis `transient1-081_transient1': CPU = 49.996
+        ms, elapsed = 61.573028564 ms.
+Time accumulated: CPU = 5.982942 s, elapsed = 16.010751963 s.
+Peak resident memory used = 80.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-082_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5719770813 ns s.
+
+Number of accepted tran steps =             84
+Initial condition solution time: CPU = 0 s, elapsed = 1.3060569763 ms.
+Intrinsic tran analysis time:    CPU = 43.33 ms, elapsed = 45.534133911 ms.
+Total time required for tran analysis `transient1-082_transient1': CPU = 46.663
+        ms, elapsed = 52.103042603 ms.
+Time accumulated: CPU = 6.039605 s, elapsed = 16.097788095 s.
+Peak resident memory used = 80.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-083_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.578888351 ns s.
+
+Number of accepted tran steps =             88
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.2731552124 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 106.17017746 ms.
+Total time required for tran analysis `transient1-083_transient1': CPU = 53.33
+        ms, elapsed = 111.70005798 ms.
+Time accumulated: CPU = 6.099601 s, elapsed = 16.22628212 s.
+Peak resident memory used = 80.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-084_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5871304278 ns s.
+
+Number of accepted tran steps =             84
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3461112976 ms.
+Intrinsic tran analysis time:    CPU = 49.998 ms, elapsed = 64.595222473 ms.
+Total time required for tran analysis `transient1-084_transient1': CPU = 53.331
+        ms, elapsed = 74.635982513 ms.
+Time accumulated: CPU = 6.159598 s, elapsed = 16.327696085 s.
+Peak resident memory used = 80.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-085_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.5913967917 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3370513916 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 98.00195694 ms.
+Total time required for tran analysis `transient1-085_transient1': CPU = 53.33
+        ms, elapsed = 105.06296158 ms.
+Time accumulated: CPU = 6.219594 s, elapsed = 16.45144105 s.
+Peak resident memory used = 80.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-086_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.603637548 ns s.
+
+Number of accepted tran steps =             83
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.373052597 ms.
+Intrinsic tran analysis time:    CPU = 43.331 ms, elapsed = 85.370063782 ms.
+Total time required for tran analysis `transient1-086_transient1': CPU = 49.997
+        ms, elapsed = 114.80903625 ms.
+Time accumulated: CPU = 6.27959 s, elapsed = 16.608763933 s.
+Peak resident memory used = 81 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-087_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.603637548 ns s.
+
+Number of accepted tran steps =             84
+Initial condition solution time: CPU = 0 s, elapsed = 1.2938976288 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 54.461956024 ms.
+Total time required for tran analysis `transient1-087_transient1': CPU = 49.997
+        ms, elapsed = 60.722112656 ms.
+Time accumulated: CPU = 6.336253 s, elapsed = 16.68601203 s.
+Peak resident memory used = 81.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-088_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.7917101768 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.4038085938 ms.
+Intrinsic tran analysis time:    CPU = 43.33 ms, elapsed = 89.826107025 ms.
+Total time required for tran analysis `transient1-088_transient1': CPU = 49.996
+        ms, elapsed = 95.991849899 ms.
+Time accumulated: CPU = 6.396249 s, elapsed = 16.829879999 s.
+Peak resident memory used = 81.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-089_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.8133336166 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 0 s, elapsed = 1.2919902802 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 49.082040787 ms.
+Total time required for tran analysis `transient1-089_transient1': CPU = 49.996
+        ms, elapsed = 55.240869522 ms.
+Time accumulated: CPU = 6.452911 s, elapsed = 16.909181118 s.
+Peak resident memory used = 81.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-090_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.8014535356 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 0 s, elapsed = 1.3258457184 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 52.206039429 ms.
+Total time required for tran analysis `transient1-090_transient1': CPU = 49.996
+        ms, elapsed = 60.275793076 ms.
+Time accumulated: CPU = 6.512907 s, elapsed = 17.004586935 s.
+Peak resident memory used = 81.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-091_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.7987746987 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 3.334 ms, elapsed = 1.2731552124 ms.
+Intrinsic tran analysis time:    CPU = 43.331 ms, elapsed = 48.95401001 ms.
+Total time required for tran analysis `transient1-091_transient1': CPU = 49.998
+        ms, elapsed = 54.707050323 ms.
+Time accumulated: CPU = 6.569571 s, elapsed = 17.075979948 s.
+Peak resident memory used = 81.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-092_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.8133336166 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 0 s, elapsed = 1.3649463654 ms.
+Intrinsic tran analysis time:    CPU = 43.33 ms, elapsed = 86.356878281 ms.
+Total time required for tran analysis `transient1-092_transient1': CPU = 49.997
+        ms, elapsed = 91.855049133 ms.
+Time accumulated: CPU = 6.629567 s, elapsed = 17.197451115 s.
+Peak resident memory used = 81.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-093_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.7918289056 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 3.334 ms, elapsed = 1.277923584 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 49.157857895 ms.
+Total time required for tran analysis `transient1-093_transient1': CPU = 49.997
+        ms, elapsed = 54.392814636 ms.
+Time accumulated: CPU = 6.68623 s, elapsed = 17.273028135 s.
+Peak resident memory used = 81.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-094_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.7910591327 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.5971660614 ms.
+Intrinsic tran analysis time:    CPU = 43.33 ms, elapsed = 47.641992569 ms.
+Total time required for tran analysis `transient1-094_transient1': CPU = 49.997
+        ms, elapsed = 53.49612236 ms.
+Time accumulated: CPU = 6.742893 s, elapsed = 17.360710144 s.
+Peak resident memory used = 82.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-095_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9.....
+`AutoStop = yes'. Analysis finished at 6.8036910978 ns s.
+
+Number of accepted tran steps =             92
+Initial condition solution time: CPU = 0 s, elapsed = 1.3420581818 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 49.469947815 ms.
+Total time required for tran analysis `transient1-095_transient1': CPU = 49.997
+        ms, elapsed = 56.696891785 ms.
+Time accumulated: CPU = 6.802889 s, elapsed = 17.504220009 s.
+Peak resident memory used = 82.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-096_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.0797369395 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 0 s, elapsed = 1.6851425171 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 72.565078735 ms.
+Total time required for tran analysis `transient1-096_transient1': CPU = 49.997
+        ms, elapsed = 92.275857925 ms.
+Time accumulated: CPU = 6.862885 s, elapsed = 17.614031076 s.
+Peak resident memory used = 82.4 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-097_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.0726874213 ns s.
+
+Number of accepted tran steps =             92
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3780593872 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 79.727888107 ms.
+Total time required for tran analysis `transient1-097_transient1': CPU = 53.33
+        ms, elapsed = 130.24187088 ms.
+Time accumulated: CPU = 6.922881 s, elapsed = 17.825653076 s.
+Peak resident memory used = 82.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-098_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.0749147848 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.2800693512 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 91.706991196 ms.
+Total time required for tran analysis `transient1-098_transient1': CPU = 49.997
+        ms, elapsed = 115.69285393 ms.
+Time accumulated: CPU = 6.982877 s, elapsed = 17.973773003 s.
+Peak resident memory used = 82.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-099_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.0822663038 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 0 s, elapsed = 1.3289451599 ms.
+Intrinsic tran analysis time:    CPU = 43.331 ms, elapsed = 50.161838531 ms.
+Total time required for tran analysis `transient1-099_transient1': CPU = 46.664
+        ms, elapsed = 62.06202507 ms.
+Time accumulated: CPU = 7.03954 s, elapsed = 18.064713955 s.
+Peak resident memory used = 82.8 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-100_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.1172788205 ns s.
+
+Number of accepted tran steps =             82
+Initial condition solution time: CPU = 0 s, elapsed = 1.6260147095 ms.
+Intrinsic tran analysis time:    CPU = 43.331 ms, elapsed = 83.025932312 ms.
+Total time required for tran analysis `transient1-100_transient1': CPU = 49.997
+        ms, elapsed = 103.42097282 ms.
+Time accumulated: CPU = 7.096203 s, elapsed = 18.359944105 s.
+Peak resident memory used = 82.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-101_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.1083580715 ns s.
+
+Number of accepted tran steps =             83
+Initial condition solution time: CPU = 0 s, elapsed = 1.2819766998 ms.
+Intrinsic tran analysis time:    CPU = 43.331 ms, elapsed = 156.9890976 ms.
+Total time required for tran analysis `transient1-101_transient1': CPU = 46.664
+        ms, elapsed = 191.77985191 ms.
+Time accumulated: CPU = 7.152866 s, elapsed = 18.609895945 s.
+Peak resident memory used = 83 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-102_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.1302349851 ns s.
+
+Number of accepted tran steps =             83
+Initial condition solution time: CPU = 0 s, elapsed = 1.3499259949 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 47.215938568 ms.
+Total time required for tran analysis `transient1-102_transient1': CPU = 49.997
+        ms, elapsed = 62.54196167 ms.
+Time accumulated: CPU = 7.212862 s, elapsed = 18.742152929 s.
+Peak resident memory used = 83.2 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-103_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.1176786224 ns s.
+
+Number of accepted tran steps =             83
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3320446014 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 51.131010056 ms.
+Total time required for tran analysis `transient1-103_transient1': CPU = 49.997
+        ms, elapsed = 59.2648983 ms.
+Time accumulated: CPU = 7.269525 s, elapsed = 18.818165064 s.
+Peak resident memory used = 83.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-104_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.3943230803 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 0 s, elapsed = 1.7559528351 ms.
+Intrinsic tran analysis time:    CPU = 46.664 ms, elapsed = 53.838968277 ms.
+Total time required for tran analysis `transient1-104_transient1': CPU = 53.33
+        ms, elapsed = 61.190843582 ms.
+Time accumulated: CPU = 7.332854 s, elapsed = 18.8961761 s.
+Peak resident memory used = 83.5 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-105_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.3929008221 ns s.
+
+Number of accepted tran steps =             90
+Initial condition solution time: CPU = 0 s, elapsed = 1.4009475708 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 54.18586731 ms.
+Total time required for tran analysis `transient1-105_transient1': CPU = 53.329
+        ms, elapsed = 63.0838871 ms.
+Time accumulated: CPU = 7.39285 s, elapsed = 19.003499031 s.
+Peak resident memory used = 83.6 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-106_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.3617453887 ns s.
+
+Number of accepted tran steps =             94
+Initial condition solution time: CPU = 3.334 ms, elapsed = 1.3821125031 ms.
+Intrinsic tran analysis time:    CPU = 49.996 ms, elapsed = 97.791910172 ms.
+Total time required for tran analysis `transient1-106_transient1': CPU = 53.33
+        ms, elapsed = 104.91704941 ms.
+Time accumulated: CPU = 7.452846 s, elapsed = 19.129081011 s.
+Peak resident memory used = 83.7 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-107_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.4039444631 ns s.
+
+Number of accepted tran steps =             89
+Initial condition solution time: CPU = 0 s, elapsed = 1.6210079193 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 65.866947174 ms.
+Total time required for tran analysis `transient1-107_transient1': CPU = 49.996
+        ms, elapsed = 72.017908096 ms.
+Time accumulated: CPU = 7.512842 s, elapsed = 19.244353056 s.
+Peak resident memory used = 83.9 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-108_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.3957989215 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 3.333 ms, elapsed = 1.3179779053 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 50.669908524 ms.
+Total time required for tran analysis `transient1-108_transient1': CPU = 53.329
+        ms, elapsed = 56.137084961 ms.
+Time accumulated: CPU = 7.572838 s, elapsed = 19.32951498 s.
+Peak resident memory used = 84 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-109_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.3948857888 ns s.
+
+Number of accepted tran steps =             86
+Initial condition solution time: CPU = 3.334 ms, elapsed = 1.2722015381 ms.
+Intrinsic tran analysis time:    CPU = 49.997 ms, elapsed = 56.504964828 ms.
+Total time required for tran analysis `transient1-109_transient1': CPU = 53.331
+        ms, elapsed = 63.816070557 ms.
+Time accumulated: CPU = 7.632835 s, elapsed = 19.409928083 s.
+Peak resident memory used = 84.1 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-110_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.3930109709 ns s.
+
+Number of accepted tran steps =             85
+Initial condition solution time: CPU = 0 s, elapsed = 1.3420581818 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 47.824859619 ms.
+Total time required for tran analysis `transient1-110_transient1': CPU = 53.33
+        ms, elapsed = 57.012081146 ms.
+Time accumulated: CPU = 7.692831 s, elapsed = 19.485595942 s.
+Peak resident memory used = 84.3 Mbytes.
+
+
+*********************************************************************
+Transient Analysis `transient1-111_transient1': time = (0 s -> 39 ns)
+*********************************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 39 ns
+    step = 39 ps
+    maxstep = 780 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+......9......
+`AutoStop = yes'. Analysis finished at 7.3932507473 ns s.
+
+Number of accepted tran steps =             84
+Initial condition solution time: CPU = 0 s, elapsed = 1.4250278473 ms.
+Intrinsic tran analysis time:    CPU = 46.663 ms, elapsed = 110.5890274 ms.
+Total time required for tran analysis `transient1-111_transient1': CPU = 49.997
+        ms, elapsed = 117.72084236 ms.
+Time accumulated: CPU = 7.752827 s, elapsed = 19.62840414 s.
+Peak resident memory used = 84.4 Mbytes.
+
+
+Aggregate audit (3:03:18 PM, Fri Oct 17, 2014):
+Time used: CPU = 8.13 s, elapsed = 20.1 s, util. = 40.5%.
+Time spent in licensing: elapsed = 188 ms.
+Peak memory used = 84.4 Mbytes.
+Simulation started at: 3:02:58 PM, Fri Oct 17, 2014, ended at: 3:03:18 PM, Fri
+        Oct 17, 2014, with elapsed time (wall clock): 20.1 s.
+spectre completes with 0 errors, 1 warning, and 1 notice.

@@ -1,0 +1,43 @@
+* Liberty NCX vD-2010.06-SP2
+flow_stage netlist
+time_unit 1e-09
+capacitance_unit 1e-15
+current_unit 0.001
+leakage_power_unit 1e-06
+resistance_unit 1e+06
+slew_derate 1
+
+cell MUX21I_A
+pin SD 0 1.2
+number_output_pin 1
+combinational_cell
+pg_syntax
+gate_leakage
+reference_align
+
+related_pin SD 0 1.2
+related_pin_edge rise
+timing_type combinational_rise
+timing_sense negative_unate
+
+input_state !D0&D1
+output_state Z
+input_pins D0 D1 SD
+output_pins Z
+pg_pins GND VDD
+pg_rails GND VDD
+power_pins GND VDD
+intrinsic_power_pins GND VDD
+pin_related_power VDD VDD VDD
+pin_related_ground GND GND GND
+
+clk_width 3
+pin_edge rise
+
+input_net_transition 0.05 0.07 0.09 0.1 0.13 0.15 0.17 0.19 0.21 0.25 0.3 0.5 0.7 0.9
+total_output_net_capacitance 5
+input_voltage_level_high 1.2 1.2 1.2
+input_voltage_level_low 0 0 0
+constraint_outlier_abs_tol 2e-13
+constraint_outlier_rel_tol 0.3
+ccs_power_tolerance 0.05

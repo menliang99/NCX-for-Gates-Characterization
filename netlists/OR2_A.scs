@@ -1,0 +1,50 @@
+simulator lang=spice
+// Generated for: spectre
+// Generated on: Oct 17 10:26:59 2014
+// Design library name: 130nm_BOOLEAN_AND_SPECIAL_final
+// Design cell name: OR2_A
+// Design view name: schematic
+.SUBCKT OR2_A A B GND VDD Z
+simulator lang=spectre
+
+// Library name: 130nm_BOOLEAN_AND_SPECIAL_final
+// Cell name: OR2_A
+// View name: schematic
+TNZ (Z net14 GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNB (net14 B GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNA (net14 A GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPZ (Z net14 VDD VDD) pfet l=120.0n w=360.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=1.98e-13 as=1.98e-13 pd=1.82u ps=1.82u nrd=0.5 nrs=0.5 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPA (net14 A net21 VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPB (net21 B VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+simulator lang=spice
+.ENDS

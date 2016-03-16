@@ -1,0 +1,4 @@
+$ Simulator: spectre (ver. 10.1.1.164.isr11)
+.title '* Spectre Active Drive Load Cap Acquisition'
+nc_td nc_adrv_optr temper alter#
+1.01e-09 8.9875761648e-10 25 1 

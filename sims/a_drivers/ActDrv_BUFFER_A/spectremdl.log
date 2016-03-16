@@ -1,0 +1,766 @@
+Defaulting  /home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/ActDrv_BUFFER_A/BUFFER_A.mdl as the -batch argument.
+Running /mscad/apps/Linux/cadence/MMSIM101/tools.lnx86/bin/spectre   =mdl /home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/ActDrv_BUFFER_A/BUFFER_A.mdl /home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/ActDrv_BUFFER_A/BUFFER_A.sp  
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 10.1.1.164.isr11 64bit -- 12 Jul 2011
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved
+        worldwide. Cadence, Virtuoso and Spectre are registered trademarks of
+        Cadence Design Systems, Inc. All others are the property of their
+        respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
+        Security, Inc.
+
+User: mliang   Host: digisrv1   HostID: B8820766   PID: 13148
+Memory  available: 6.2485 GB  physical: 8.3780 GB
+CPU Type: Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz
+          Processor PhysicalID CoreID Frequency
+              0         0        0     2405.8
+              1         0        1     2405.8
+              2         0        2     2405.8
+              3         0        3     2405.8
+
+
+Simulating
+        `/home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/ActDrv_BUFFER_A/BUFFER_A.sp'
+        on digisrv1 at 3:01:32 PM, Fri Oct 17, 2014 (process id: 13148).
+
+Time for NDB Parsing: CPU = 449.97 ms, elapsed = 568.041 ms.
+Time accumulated: CPU = 449.97 ms, elapsed = 568.041 ms.
+Peak resident memory used = 60.4 Mbytes.
+
+
+Warning from spectre in `buffer_a', during circuit read-in.
+    WARNING (SFE-2453): The global node `gnd' and sub circuit terminal `GND'
+        will be treated as the sub circuit terminal.
+
+
+Time for Elaboration: CPU = 46.663 ms, elapsed = 49.01 ms.
+Time accumulated: CPU = 496.633 ms, elapsed = 617.224 ms.
+Peak resident memory used = 65.2 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-2468): A MDL control file
+        '/home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/ActDrv_BUFFER_A/BUFFER_A.mdl'
+        is specified.  All .measure, .print and .probe statements in netlist
+        '/home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/ActDrv_BUFFER_A/BUFFER_A.sp'
+        are ignored.
+
+
+Time for EDB Visiting: CPU = 3.333 ms, elapsed = 1.9590854645 ms.
+Time accumulated: CPU = 499.966 ms, elapsed = 619.33588982 ms.
+Peak resident memory used = 65.7 Mbytes.
+
+All assert violations will be written to logfile.
+
+Circuit inventory:
+              nodes 5
+             assert 48    
+              bsim4 4     
+          capacitor 1     
+            vsource 4     
+
+
+Time for parsing: CPU = 3.334 ms, elapsed = 6.2811374664 ms.
+Time accumulated: CPU = 503.3 ms, elapsed = 625.74100494 ms.
+Peak resident memory used = 66.4 Mbytes.
+
+
+Notice from spectre during transient analysis `transient1', during task
+        `MDLControl'.
+    No checklimit analysis defined for asserts. A default checklimit analysis
+        'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+The following asserts will be enabled for all subsequent analyses until the
+        next checklimit analysis statement is found:
+X_AD_BUFFER_A.T1.vgd_check : ON 
+X_AD_BUFFER_A.T1.vgb_check : ON 
+X_AD_BUFFER_A.T1.vbd_check : ON 
+X_AD_BUFFER_A.T1.vbd_chkfwd : ON 
+X_AD_BUFFER_A.T3.vgd_check : ON 
+X_AD_BUFFER_A.T3.vgb_check : ON 
+X_AD_BUFFER_A.T3.vbd_check : ON 
+X_AD_BUFFER_A.T3.vbd_chkfwd : ON 
+X_AD_BUFFER_A.T0.vgd_check : ON 
+X_AD_BUFFER_A.T0.vgb_check : ON 
+X_AD_BUFFER_A.T0.vbd_check : ON 
+X_AD_BUFFER_A.T0.vbd_chkfwd : ON 
+X_AD_BUFFER_A.T2.vgd_check : ON 
+X_AD_BUFFER_A.T2.vgb_check : ON 
+X_AD_BUFFER_A.T2.vbd_check : ON 
+X_AD_BUFFER_A.T2.vbd_chkfwd : ON 
+X_AD_BUFFER_A.T2.vbs_chkfwd : ON 
+X_AD_BUFFER_A.T2.vbs_check : ON 
+X_AD_BUFFER_A.T2.vgs_check : ON 
+X_AD_BUFFER_A.T2.vds_check : ON 
+X_AD_BUFFER_A.T0.vbs_chkfwd : ON 
+X_AD_BUFFER_A.T0.vbs_check : ON 
+X_AD_BUFFER_A.T0.vgs_check : ON 
+X_AD_BUFFER_A.T0.vds_check : ON 
+X_AD_BUFFER_A.T3.vbs_chkfwd : ON 
+X_AD_BUFFER_A.T3.vbs_check : ON 
+X_AD_BUFFER_A.T3.vgs_check : ON 
+X_AD_BUFFER_A.T3.vds_check : ON 
+X_AD_BUFFER_A.T1.vbs_chkfwd : ON 
+X_AD_BUFFER_A.T1.vbs_check : ON 
+X_AD_BUFFER_A.T1.vgs_check : ON 
+X_AD_BUFFER_A.T1.vds_check : ON 
+
+*******************************************************
+Transient Analysis `transient1': time = (0 s -> 100 ns)
+*******************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 2 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 25 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+.
+
+Warning from spectre at time = 1.0110842361 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4017): X_AD_BUFFER_A.T1.vbs_chkfwd: Vbs source-body diode
+        is being forward-biased. Instance X_AD_BUFFER_A.T1, Parameter `vbs'
+        having value 971.48154004 uV has exceeded its upper bound `0'.
+Warning from spectre at time = 1.0736319054 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T2.vbs_chkfwd: Vbs source-body diode
+        is being forward-biased. Instance X_AD_BUFFER_A.T2, Parameter `vbs'
+        having value -24.988531471 uV has exceeded its lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T1.vbs_chkfwd: Instance
+        X_AD_BUFFER_A.T1, Parameter `vbs' having value 0 V has returned to
+        within bounds [-340.28234664e+36, 0].
+Warning from spectre at time = 1.14 ns during transient analysis `transient1',
+        during task `MDLControl'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T2.vbs_chkfwd: Instance
+        X_AD_BUFFER_A.T2, Parameter `vbs' having value 0 V has returned to
+        within bounds [-0, 340.28234664e+36].
+
+..
+
+Warning from spectre at time = 3.2515644304 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4017): X_AD_BUFFER_A.T0.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T0, Parameter `vds' having value 16.706226873 uV
+        has exceeded its upper bound `0'.
+Warning from spectre at time = 3.5932438739 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -1.815433752e-06 has exceeded its
+        lower bound `-0'.
+
+...
+
+Warning from spectre at time = 4.0849055296 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4017): X_AD_BUFFER_A.T3.vbs_chkfwd: Vbs source-body diode
+        is being forward-biased. Instance X_AD_BUFFER_A.T3, Parameter `vbs'
+        having value 3.789445248 uV has exceeded its upper bound `0'.
+Warning from spectre at time = 4.8743417955 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.5037653306e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vbs_chkfwd: Instance
+        X_AD_BUFFER_A.T3, Parameter `vbs' having value 0 V has returned to
+        within bounds [-340.28234664e+36, 0].
+Warning from spectre at time = 6.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4017): X_AD_BUFFER_A.T3.vbs_chkfwd: Vbs source-body diode
+        is being forward-biased. Instance X_AD_BUFFER_A.T3, Parameter `vbs'
+        having value 398.14471943 nV has exceeded its upper bound `0'.
+
+....
+
+Warning from spectre at time = 8.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.4659532625e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vbs_chkfwd: Instance
+        X_AD_BUFFER_A.T3, Parameter `vbs' having value 0 V has returned to
+        within bounds [-340.28234664e+36, 0].
+
+......
+
+Warning from spectre at time = 10.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4017): X_AD_BUFFER_A.T3.vbs_chkfwd: Vbs source-body diode
+        is being forward-biased. Instance X_AD_BUFFER_A.T3, Parameter `vbs'
+        having value 100.45447176 nV has exceeded its upper bound `0'.
+
+......9
+
+Warning from spectre at time = 12.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.4501174456e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vbs_chkfwd: Instance
+        X_AD_BUFFER_A.T3, Parameter `vbs' having value 0 V has returned to
+        within bounds [-340.28234664e+36, 0].
+
+......9..
+
+Warning from spectre at time = 14.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -77.257079801
+        nV has exceeded its lower bound `0'.
+
+......9...
+
+Warning from spectre at time = 16.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.4328818164e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 368.64046268 nV has
+        returned to within bounds [0, 1.6].
+
+......9....
+
+Warning from spectre at time = 18.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -152.50250634
+        nV has exceeded its lower bound `0'.
+
+......9......
+
+Warning from spectre at time = 20.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.4156948493e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 319.71345752 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8
+
+Warning from spectre at time = 22.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -184.38651891
+        nV has exceeded its lower bound `0'.
+
+......9......8..
+
+Warning from spectre at time = 24.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.3990132121e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 298.96662593 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8...
+
+Warning from spectre at time = 26.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -197.91087556
+        nV has exceeded its lower bound `0'.
+
+......9......8....
+
+Warning from spectre at time = 28.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.3830064202e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 290.15232151 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......
+
+Warning from spectre at time = 30.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -203.66104475
+        nV has exceeded its lower bound `0'.
+
+......9......8......7
+
+Warning from spectre at time = 32.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.3677235821e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 286.39149813 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7..
+
+Warning from spectre at time = 34.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -206.11868608
+        nV has exceeded its lower bound `0'.
+
+......9......8......7...
+
+Warning from spectre at time = 36.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.353163943e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 284.77168859 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7....
+
+Warning from spectre at time = 38.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -207.18124635
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......
+
+Warning from spectre at time = 40.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.3393066959e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 284.05977633 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6
+
+Warning from spectre at time = 42.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -207.65209451
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6..
+
+Warning from spectre at time = 44.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.3261235504e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.73363146 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6...
+
+Warning from spectre at time = 46.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -207.87140142
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6....
+
+Warning from spectre at time = 48.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.3135840066e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.57213473 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......
+
+Warning from spectre at time = 50.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -207.98323363
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5
+
+Warning from spectre at time = 52.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.301657537e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.48160736 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5..
+
+Warning from spectre at time = 54.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.0486317 nV
+        has exceeded its lower bound `0'.
+
+......9......8......7......6......5...
+
+Warning from spectre at time = 56.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.2903144696e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.4223272 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5....
+
+Warning from spectre at time = 58.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.09348334
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......
+
+Warning from spectre at time = 60.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.2795263159e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.37741916 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4
+
+Warning from spectre at time = 62.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.12879163
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4..
+
+Warning from spectre at time = 64.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.269265871e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.33968294 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4...
+
+Warning from spectre at time = 66.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.15925625
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4....
+
+Warning from spectre at time = 68.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.2595072171e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.30601713 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4......
+
+Warning from spectre at time = 70.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.18690547
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4......3
+
+Warning from spectre at time = 72.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.2502256887e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.27505891 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4......3..
+
+Warning from spectre at time = 74.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.21263516
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4......3...
+
+Warning from spectre at time = 76.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.2413978227e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.24618298 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4......3....
+
+Warning from spectre at time = 78.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.2368599 nV
+        has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4......3......
+
+Warning from spectre at time = 80.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.2330013041e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.21907942 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4......3......2
+
+Warning from spectre at time = 82.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.25978875
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4......3......2..
+
+Warning from spectre at time = 84.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.2250149128e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.19357354 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4......3......2...
+
+Warning from spectre at time = 86.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.28154212
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4......3......2....
+
+Warning from spectre at time = 88.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.2174184693e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.16955025 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4......3......2......
+
+Warning from spectre at time = 90.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.30220123
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4......3......2......1
+
+Warning from spectre at time = 92.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.210192785e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.14692192 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4......3......2......1..
+
+Warning from spectre at time = 94.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.32182933
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4......3......2......1...
+
+Warning from spectre at time = 96.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.203319613e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 283.12561402 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4......3......2......1....
+
+Warning from spectre at time = 98.337587286 ns during transient analysis
+        `transient1', during task `MDLControl'.
+    WARNING (SPECTRE-4108): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Expression `vbs-vds' having value 0 has returned to
+        within bounds [-0, 340.28234664e+36].
+    WARNING (SPECTRE-4011): X_AD_BUFFER_A.T3.vds_check: Vds exceeds limit.
+        Instance X_AD_BUFFER_A.T3, Parameter `vds' having value -208.34048049
+        nV has exceeded its lower bound `0'.
+
+......9......8......7......6......5......4......3......2......1......
+
+Warning from spectre at time = 100 ns during transient analysis `transient1',
+        during task `MDLControl'.
+    WARNING (SPECTRE-4103): X_AD_BUFFER_A.T0.vbd_chkfwd, instance
+        X_AD_BUFFER_A.T0: Vbd drain-body diode is being forward-biased.
+        Expression `vbs-vds' having value -2.1974869022e-06 has exceeded its
+        lower bound `-0'.
+    WARNING (SPECTRE-4020): X_AD_BUFFER_A.T3.vds_check: Instance
+        X_AD_BUFFER_A.T3, Parameter `vds' having value 275.23648628 nV has
+        returned to within bounds [0, 1.6].
+
+......9......8......7......6......5......4......3......2......1......0
+Number of accepted tran steps =             103
+Initial condition solution time: CPU = 0 s, elapsed = 740.05126953 us.
+Intrinsic tran analysis time:    CPU = 26.665 ms, elapsed = 59.412002563 ms.
+Total time required for tran analysis `transient1': CPU = 29.998 ms, elapsed =
+        63.628911972 ms.
+Time accumulated: CPU = 533.298 ms, elapsed = 692.32201576 ms.
+Peak resident memory used = 67.4 Mbytes.
+
+
+Notice from spectre during task `MDLControl'.
+    81 warnings suppressed.
+
+
+Aggregate audit (3:01:32 PM, Fri Oct 17, 2014):
+Time used: CPU = 560 ms, elapsed = 762 ms, util. = 73.5%.
+Time spent in licensing: elapsed = 117 ms, percentage of total = 15.3%.
+Peak memory used = 67.4 Mbytes.
+Simulation started at: 3:01:32 PM, Fri Oct 17, 2014, ended at: 3:01:32 PM, Fri
+        Oct 17, 2014, with elapsed time (wall clock): 762 ms.
+spectre completes with 0 errors, 108 warnings, and 2 notices.

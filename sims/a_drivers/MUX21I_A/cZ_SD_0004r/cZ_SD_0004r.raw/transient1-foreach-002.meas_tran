@@ -1,0 +1,121 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "10.1.1.164.isr11"
+"date" "3:02:49 PM, Fri Oct 17, 2014"
+"design" "* Spectre Timing Acquisition"
+"analysis type" "meas_tran"
+"analysis name" "transient1-foreach-002"
+"analysis description" " Analysis tran"
+"analysis title" "Measurement Results for transient1 Analysis tran"
+"xVecSorted" "unsorted"
+"tolerance.relative" 1.00000e-05
+TYPE
+"measReal" FLOAT DOUBLE PROP(
+"units" ""
+"key" "meas"
+)
+VALUE
+"nc_td" "measReal" 6.020000000000000e-09 PROP(
+"units" ""
+)
+"nc_sidecap" "measReal" 5.000000000000000e-15 PROP(
+"units" ""
+)
+"cap_sd" "measReal" 5.000000000000000e-15 PROP(
+"units" ""
+)
+"nc_inref_sd" "measReal" 6.159250592974032e-09 PROP(
+"units" ""
+)
+"nc_delay_sd_sd" "measReal" 0.000000000000000e+00 PROP(
+"units" ""
+)
+"nc_optr_sd" "measReal" 9.056125532035677e-11 PROP(
+"units" ""
+)
+"nc_fulloptr_sd" "measReal" nan PROP(
+"units" ""
+)
+"t_sd_trip1" "measReal" 6.123927345973789e-09 PROP(
+"units" ""
+)
+"t_sd_trip2" "measReal" 6.214488601294146e-09 PROP(
+"units" ""
+)
+"t_stop_sd" "measReal" 6.234856786349999e-09 PROP(
+"units" ""
+)
+"t_simstop" "measReal" nan PROP(
+"units" ""
+)
+"t_sd_trip_incap1" "measReal" 6.030987540925000e-09 PROP(
+"units" ""
+)
+"t_sd_trip_incap2" "measReal" 6.214488601294146e-09 PROP(
+"units" ""
+)
+"nc_intg_i_sd" "measReal" -3.400840170289854e-15 PROP(
+"units" ""
+)
+"nc_intg_i1_sd" "measReal" -1.624478904535107e-15 PROP(
+"units" ""
+)
+"nc_intg_i2_sd" "measReal" -1.776361265754748e-15 PROP(
+"units" ""
+)
+"nc_incap_sd" "measReal" 3.166517849431894e-15 PROP(
+"units" ""
+)
+"nc_incap_c1_sd" "measReal" 2.734812970597823e-15 PROP(
+"units" ""
+)
+"nc_incap_c2_sd" "measReal" 3.700752636989058e-15 PROP(
+"units" ""
+)
+"nc_iptr_sd" "measReal" 9.000000000000000e-11 PROP(
+"units" ""
+)
+"real_iptr_sd" "measReal" 9.056125532035677e-11 PROP(
+"units" ""
+)
+"nc_when_d0" "measReal" 0.000000000000000e+00 PROP(
+"units" ""
+)
+"nc_when_d1" "measReal" 1.000000000000000e+00 PROP(
+"units" ""
+)
+"nc_when_sd" "measReal" 1.000000000000000e+00 PROP(
+"units" ""
+)
+"nc_when_z" "measReal" 1.000000000000000e+00 PROP(
+"units" ""
+)
+"nc_dyn_energy" "measReal" nan PROP(
+"units" ""
+)
+"t_int_energy" "measReal" nan PROP(
+"units" ""
+)
+"nc_int_energy" "measReal" nan PROP(
+"units" ""
+)
+"nc_dyn_eng_gnd" "measReal" nan PROP(
+"units" ""
+)
+"nc_dyn_eng_vdd" "measReal" nan PROP(
+"units" ""
+)
+"nc_dyn_abs_energy" "measReal" nan PROP(
+"units" ""
+)
+"nc_charge_gnd" "measReal" nan PROP(
+"units" ""
+)
+"nc_charge_vdd" "measReal" nan PROP(
+"units" ""
+)
+"temper" "measReal" 2.500000000000000e+01 PROP(
+"units" "C"
+)
+END

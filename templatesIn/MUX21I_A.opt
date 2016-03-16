@@ -1,0 +1,123 @@
+area : 16.0000000 ;
+cell_footprint : foot_mux2_a ;
+pin D0 {
+	direction : input ;
+	input_voltage : default ;
+	capacitance : 0.001;
+}
+
+pin D1 {
+	direction : input ;
+	input_voltage : default ;
+	capacitance : 0.001;
+}
+
+pin SD {
+	direction : input ;
+	input_voltage : default ;
+	capacitance : 0.001;
+}
+
+pin Z {
+	direction : output ;
+	max_capacitance : 0.000000 ;
+	output_voltage : default ;
+	function :( ((!SD)&D0) | (SD&D1) ) ;
+	timing {
+		*** arc id: z_a_0
+		related_pin : D0;
+		when : !SD;
+		sdf_cond : SD==1'b0;
+		timing_sense : negative_unate ;
+		timing_type : combinational_rise ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_rise: 
+			D0 110 \
+			SD 000 \
+			Z 01 ;
+	}
+	timing {
+		*** arc id: z_a_1
+		related_pin : D0;
+		when : !SD;
+		sdf_cond : SD==1'b0;
+		timing_sense : negative_unate ;
+		timing_type : combinational_fall ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_fall: 
+			D0 001 \
+			SD 000 \
+			Z 10 ;
+	}
+	timing {
+		*** arc id: z_b_0
+		related_pin : D1;
+		when : SD;
+		sdf_cond : SD==1'b1;
+		timing_sense : negative_unate ;
+		timing_type : combinational_rise ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_rise: 
+			D1 110 \
+			SD 111 \
+			Z 01 ;
+	}
+	timing {
+		*** arc id: z_b_1
+		related_pin : D1;
+		when : SD;
+		sdf_cond : SD==1'b1;
+		timing_sense : negative_unate ;
+		timing_type : combinational_fall ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_fall: 
+			D1 001 \
+			SD 111 \
+			Z 10 ;
+	}
+
+	timing {
+		*** arc id: z_b_1
+		related_pin : SD;
+		when : !D0&D1;
+		sdf_cond : D1==1'b1 & D0 == 1'b0;
+		timing_sense : negative_unate ;
+		timing_type : combinational_rise ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_rise: 
+			D0 000
+			D1 111 \
+			SD 110 \
+			Z  01 ;
+	}
+
+	timing {
+		*** arc id: z_b_1
+		related_pin : SD;
+		when : !D0&D1;
+		sdf_cond : D1==1'b1 & D0 == 1'b0;
+		timing_sense : negative_unate ;
+		timing_type : combinational_fall ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_fall: 
+			D0 000
+			D1 111 \
+			SD 001\
+			Z  10 ;
+	}
+	
+}
+pg_pin (VDD) {
+	voltage_name : "VDD";
+	pg_type : "primary_power";
+	}
+pg_pin (GND) {
+	voltage_name : "GND";
+	pg_type : "primary_ground";
+	}

@@ -1,0 +1,38 @@
+simulator lang=spice
+// Generated for: spectre
+// Generated on: Oct 17 10:28:31 2014
+// Design library name: JOLPE_test
+// Design cell name: buffer_a
+// Design view name: schematic
+.SUBCKT buffer_a a GND VDD z
+simulator lang=spectre
+
+// Library name: JOLPE_test
+// Cell name: buffer_a
+// View name: schematic
+T1 (iz a GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 ad=8.8e-14 \
+        as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 rf_rsub=1 \
+        plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+T3 (z iz GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 ad=8.8e-14 \
+        as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 rf_rsub=1 \
+        plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+T0 (iz a VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 ad=8.8e-14 \
+        as=8.8e-14 pd=1.42u ps=1.42u nrd=1.5652 nrs=1.5652 rf_rsub=1 \
+        plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+T2 (z iz VDD VDD) pfet l=120.0n w=360.0n nf=1 m=1 par=1 ngcon=1 ad=1.98e-13 \
+        as=1.98e-13 pd=1.82u ps=1.82u nrd=0.5 nrs=0.5 rf_rsub=1 plnest=-1 \
+        plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 rgatemod=0 \
+        rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p \
+        panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 sb=5.5e-07 sd=0u \
+        dtemp=0
+simulator lang=spice
+.ENDS

@@ -1,0 +1,38 @@
+simulator lang=spice
+// Generated for: spectre
+// Generated on: Oct 17 10:26:57 2014
+// Design library name: 130nm_BOOLEAN_AND_SPECIAL_final
+// Design cell name: NAND2_A
+// Design view name: schematic
+.SUBCKT NAND2_A a b gnd vdd z
+simulator lang=spectre
+
+// Library name: 130nm_BOOLEAN_AND_SPECIAL_final
+// Cell name: NAND2_A
+// View name: schematic
+TNB (net58 B GND GND) nfet l=120.0n w=250.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=1.375e-13 as=1.375e-13 pd=1.6u ps=1.6u nrd=0.72 nrs=0.72 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNA (Z A net58 GND) nfet l=120.0n w=250.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=1.375e-13 as=1.375e-13 pd=1.6u ps=1.6u nrd=0.72 nrs=0.72 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPA (Z A VDD VDD) pfet l=120.0n w=440.0n nf=1 m=1 par=1 ngcon=1 ad=2.42e-13 \
+        as=2.42e-13 pd=1.98u ps=1.98u nrd=0.4091 nrs=0.4091 rf_rsub=1 \
+        plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPB (Z B VDD VDD) pfet l=120.0n w=440.0n nf=1 m=1 par=1 ngcon=1 ad=2.42e-13 \
+        as=2.42e-13 pd=1.98u ps=1.98u nrd=0.4091 nrs=0.4091 rf_rsub=1 \
+        plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+simulator lang=spice
+.ENDS

@@ -1,0 +1,68 @@
+simulator lang=spice
+// Generated for: spectre
+// Generated on: Oct 17 10:26:55 2014
+// Design library name: 130nm_BOOLEAN_AND_SPECIAL_final
+// Design cell name: XOR2_A
+// Design view name: schematic
+.SUBCKT XOR2_A A B GND VDD Z
+simulator lang=spectre
+
+// Library name: 130nm_BOOLEAN_AND_SPECIAL_final
+// Cell name: XOR2_A
+// View name: schematic
+TNB (net059 B GND GND) nfet l=120.0n w=280.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=1.54e-13 as=1.54e-13 pd=1.66u ps=1.66u nrd=0.6429 nrs=0.6429 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNA (net078 A GND GND) nfet l=120.0n w=540.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=2.97e-13 as=2.97e-13 pd=2.18u ps=2.18u nrd=0.3333 nrs=0.3333 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNANOT (net043 net078 GND GND) nfet l=120.0n w=300.0n nf=1 m=1 par=1 \
+        ngcon=1 ad=1.65e-13 as=1.65e-13 pd=1.7u ps=1.7u nrd=0.6 nrs=0.6 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNBNOT (Z net059 net043 GND) nfet l=120.0n w=300.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=1.65e-13 as=1.65e-13 pd=1.7u ps=1.7u nrd=0.6 nrs=0.6 rf_rsub=1 \
+        plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNBM1 (Z B net078 GND) nfet l=120.0n w=280.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=1.54e-13 as=1.54e-13 pd=1.66u ps=1.66u nrd=0.6429 nrs=0.6429 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPA (net078 A VDD VDD) pfet l=120.0n w=760.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=4.18e-13 as=4.18e-13 pd=2.62u ps=2.62u nrd=0.2368 nrs=0.2368 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPANOT (Z net078 net059 VDD) pfet l=120.0n w=760.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=4.18e-13 as=4.18e-13 pd=2.62u ps=2.62u nrd=0.2368 nrs=0.2368 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPB (net059 B VDD VDD) pfet l=120.0n w=760.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=4.18e-13 as=4.18e-13 pd=2.62u ps=2.62u nrd=0.2368 nrs=0.2368 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPBNOT (Z net059 net078 VDD) pfet l=120.0n w=760.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=4.18e-13 as=4.18e-13 pd=2.62u ps=2.62u nrd=0.2368 nrs=0.2368 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+simulator lang=spice
+.ENDS

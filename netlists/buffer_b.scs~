@@ -1,0 +1,36 @@
+simulator lang=spice
+// Generated for: spectre
+// Generated on: May 18 09:46:35 2014
+// Design library name: NCX_Testing_more_additional_Gates
+// Design cell name: buffer_b
+// Design view name: schematic
+.SUBCKT buffer_b a gnd vdd z
+simulator lang=spectre
+include "/mscad/foundry/GF_65/chrt65lpe_V1500RF_DK011_IC61_Rev7/cmos10lpe/../models/YI-SM00030/Spectre/design.scs"
+include "/mscad/foundry/GF_65/chrt65lpe_V1500RF_DK011_IC61_Rev7/cmos10lpe/../models/YI-SM00050/Spectre/design_rfaddm.scs"
+
+// Library name: NCX_Testing_more_additional_Gates
+// Cell name: buffer_b
+// View name: schematic
+T2 (z net6 gnd gnd) nfet l=60n w=240.0n ad=38.4f as=38.4f pd=800n ps=800n \
+        nrd=0.4167 nrs=0.4167 m=1 nf=1 par=1 pccrit=1 ptwell=1 plnest=1 \
+        plorient=1 pld200=1 dtemp=0.0 sa=1.6e-07 sb=1.6e-07 sd=0 p_vta=0 \
+        panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p \
+        panw8=0p panw9=0p panw10=0p pre_layout_local=-1
+T0 (net6 a gnd gnd) nfet l=60n w=120.0n ad=19.2f as=19.2f pd=560.0n \
+        ps=560.0n nrd=0.8333 nrs=0.8333 m=1 nf=1 par=1 pccrit=1 ptwell=1 \
+        plnest=1 plorient=1 pld200=1 dtemp=0.0 sa=1.6e-07 sb=1.6e-07 sd=0 \
+        p_vta=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p \
+        panw7=0p panw8=0p panw9=0p panw10=0p pre_layout_local=-1
+T3 (z net6 vdd vdd) pfet l=60n w=360.0n ad=57.6f as=57.6f pd=1.04u \
+        ps=1.04u nrd=0.2778 nrs=0.2778 m=1 nf=1 par=1 pccrit=1 plnest=1 \
+        plorient=1 pld200=1 dtemp=0.0 sa=1.6e-07 sb=1.6e-07 sd=0 p_vta=0 \
+        panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p \
+        panw8=0p panw9=0p panw10=0p pre_layout_local=-1
+T1 (net6 a vdd vdd) pfet l=60n w=180.0n ad=28.8f as=28.8f pd=680.0n \
+        ps=680.0n nrd=0.5556 nrs=0.5556 m=1 nf=1 par=1 pccrit=1 plnest=1 \
+        plorient=1 pld200=1 dtemp=0.0 sa=1.6e-07 sb=1.6e-07 sd=0 p_vta=0 \
+        panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p \
+        panw8=0p panw9=0p panw10=0p pre_layout_local=-1
+simulator lang=spice
+.ENDS

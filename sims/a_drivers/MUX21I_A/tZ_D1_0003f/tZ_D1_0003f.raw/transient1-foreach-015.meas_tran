@@ -1,0 +1,121 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "10.1.1.164.isr11"
+"date" "3:01:57 PM, Fri Oct 17, 2014"
+"design" "* Spectre Timing Acquisition"
+"analysis type" "meas_tran"
+"analysis name" "transient1-foreach-015"
+"analysis description" " Analysis tran"
+"analysis title" "Measurement Results for transient1 Analysis tran"
+"xVecSorted" "unsorted"
+"tolerance.relative" 1.00000e-05
+TYPE
+"measReal" FLOAT DOUBLE PROP(
+"units" ""
+"key" "meas"
+)
+VALUE
+"nc_td" "measReal" 6.020000000000000e-09 PROP(
+"units" ""
+)
+"nc_sidecap" "measReal" 5.000000000000000e-15 PROP(
+"units" ""
+)
+"cap_z" "measReal" 5.900000000000000e-15 PROP(
+"units" ""
+)
+"nc_inref_d1" "measReal" 6.149518830542711e-09 PROP(
+"units" ""
+)
+"nc_delay_d1_z" "measReal" 9.882900097638730e-11 PROP(
+"units" ""
+)
+"nc_optr_z" "measReal" 1.326785191528529e-10 PROP(
+"units" ""
+)
+"nc_fulloptr_z" "measReal" 2.629289501316848e-10 PROP(
+"units" ""
+)
+"t_d1_trip1" "measReal" 6.121640189049167e-09 PROP(
+"units" ""
+)
+"t_d1_trip2" "measReal" 6.192137657039924e-09 PROP(
+"units" ""
+)
+"t_stop_d1" "measReal" 6.208197833650000e-09 PROP(
+"units" ""
+)
+"t_stop_z" "measReal" 6.430528463234619e-09 PROP(
+"units" ""
+)
+"t_simstop" "measReal" 6.430528463234619e-09 PROP(
+"units" ""
+)
+"t_d1_trip_incap1" "measReal" 6.026266630249999e-09 PROP(
+"units" ""
+)
+"t_d1_trip_incap2" "measReal" 6.192137657039924e-09 PROP(
+"units" ""
+)
+"nc_intg_i_d1" "measReal" -1.887552740365479e-15 PROP(
+"units" ""
+)
+"nc_intg_i1_d1" "measReal" -1.027802512933775e-15 PROP(
+"units" ""
+)
+"nc_intg_i2_d1" "measReal" -8.597502274317041e-16 PROP(
+"units" ""
+)
+"nc_incap_d1" "measReal" 1.757497896057243e-15 PROP(
+"units" ""
+)
+"nc_incap_c1_d1" "measReal" 1.730307260831271e-15 PROP(
+"units" ""
+)
+"nc_incap_c2_d1" "measReal" 1.791146307149384e-15 PROP(
+"units" ""
+)
+"nc_iptr_d1" "measReal" 7.000000000000000e-11 PROP(
+"units" ""
+)
+"real_iptr_d1" "measReal" 7.049746799075701e-11 PROP(
+"units" ""
+)
+"nc_when_d1" "measReal" 1.000000000000000e+00 PROP(
+"units" ""
+)
+"nc_when_sd" "measReal" 1.000000000000000e+00 PROP(
+"units" ""
+)
+"nc_when_z" "measReal" 0.000000000000000e+00 PROP(
+"units" ""
+)
+"nc_dyn_energy" "measReal" 3.693030452889564e-15 PROP(
+"units" ""
+)
+"t_int_energy" "measReal" 4.105284632346191e-10 PROP(
+"units" ""
+)
+"nc_int_energy" "measReal" 3.693030452889564e-15 PROP(
+"units" ""
+)
+"nc_dyn_eng_gnd" "measReal" 0.000000000000000e+00 PROP(
+"units" ""
+)
+"nc_dyn_eng_vdd" "measReal" 3.693030452889564e-15 PROP(
+"units" ""
+)
+"nc_dyn_abs_energy" "measReal" 5.836967821756708e-15 PROP(
+"units" ""
+)
+"nc_charge_gnd" "measReal" 1.323744213152719e-14 PROP(
+"units" ""
+)
+"nc_charge_vdd" "measReal" -3.077525377407970e-15 PROP(
+"units" ""
+)
+"temper" "measReal" 2.500000000000000e+01 PROP(
+"units" "C"
+)
+END

@@ -1,0 +1,124 @@
+area : 16.0000000 ;
+cell_footprint : foot_nand3_a ;
+pin A {
+	direction : input ;
+	input_voltage : default ;
+	capacitance : 0.001;
+}
+
+pin B {
+	direction : input ;
+	input_voltage : default ;
+	capacitance : 0.001;
+}
+
+pin C {
+	direction : input ;
+	input_voltage : default ;
+	capacitance : 0.001;
+}
+
+pin Z {
+	direction : output ;
+	max_capacitance : 0.000000 ;
+	output_voltage : default ;
+	function : (A)|(B)|(C) ;
+	timing {
+		*** arc id: z_a_0
+		related_pin : A;
+		when : !B&!C;
+		sdf_cond : B==1'b0 & C==1'b0;
+		timing_sense : positive_unate ;
+		timing_type : combinational_rise ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_rise: 
+			A 001 \
+			B 000 \
+			C 000 \
+			Z 01 ;
+	}
+	timing {
+		*** arc id: z_b_1
+		related_pin : B;
+		when : !A&!C;
+		sdf_cond : A==1'b0 & C==1'b0;
+		timing_sense : positive_unate ;
+		timing_type : combinational_rise ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_rise: 
+			A 000 \
+			B 001 \
+			C 000 \
+			Z 01 ;
+	}
+	timing {
+		*** arc id: z_c_2
+		related_pin : C;
+		when : !A&!B;
+		sdf_cond : A==1'b0 & B==1'b0 ;
+		timing_sense : positive_unate ;
+		timing_type : combinational_rise ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_rise: 
+			A 000 \
+			B 000 \
+			C 001 \
+			Z 01 ;
+	}
+	timing {
+		*** arc id: z_a_3
+		related_pin : A;
+		when : !B&!C;
+		sdf_cond : B==1'b0 & C==1'b0;
+		timing_sense : positive_unate ;
+		timing_type : combinational_fall ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_fall: 
+			A 110 \
+			B 000 \
+			C 000 \
+			Z 10 ;
+	}
+	timing {
+		*** arc id: z_b_4
+		related_pin : B;
+		when : !A&!C;
+		sdf_cond : A==1'b0 & C==1'b0;
+		timing_sense : positive_unate ;
+		timing_type : combinational_fall ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_fall: 
+			A 000 \
+			B 110 \
+			C 000 \
+			Z 10 ;
+	}
+	timing {
+		*** arc id: z_b_5
+		related_pin : C;
+		when : !A&!B;
+		sdf_cond : A==1'b0 & B==1'b0;
+		timing_sense : positive_unate ;
+		timing_type : combinational_fall ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_fall: 
+			A 000 \
+			B 000 \
+			C 110 \
+			Z 10 ;
+	}
+}
+pg_pin (VDD) {
+	voltage_name : "VDD";
+	pg_type : "primary_power";
+	}
+pg_pin (GND) {
+	voltage_name : "GND";
+	pg_type : "primary_ground";
+	}

@@ -1,0 +1,137 @@
+//   Spectre Active Drive Load Cap Acquisition
+# 1 "Netlist"
+simulator lang=spectre insensitive=yes
+global 0 gnd 
+aliasGnd ( gnd 0 ) vsource type=dc dc=0
+
+# 2 "Netlist"
+//  Liberty NCX vD-2010.06-SP2
+# 3 "Netlist"
+//  Build(Aug 30 2010)
+//  Filename: /home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/ActDrv_BUFFER_A/BUFFER_A.sp
+//  All Slew Index(ps):
+//  50.000000 70.000000 90.000000 100.000000 130.000000 150.000000 170.000000 190.000000 
+// 210.000000 250.000000 300.000000 500.000000 700.000000 900.000000
+# 7 "Netlist"
+//  slew_derate_from_library: 1.000000
+//  Required Output Transition Time of Active Driver(ps):
+//  50.000000 70.000000 90.000000 100.000000 130.000000 150.000000 170.000000 190.000000 
+// 210.000000 250.000000 300.000000 500.000000 700.000000 900.000000
+ 
+ 
+//  OPTIONS ==============================
+//  NCX Default Options:
+settings options rawfmt=psfascii
+ 
+# 18 "Netlist"
+SetOption1 options digits=10 measdgt=10
+ 
+# 21 "Netlist"
+//  End of NCX Default Options.
+ 
+//  Lib Level Options:
+//  No Lib Level Options Here
+ 
+//  MODELS ===============================
+// include "/home/mliang/HeteroTape2/NCXforBool/design_modified.scs"
+ 
+//  TEMPERATURE ==========================
+temperature options temp= 2.500000e+01
+//  Input WaveForm
+// include "input.scs" 
+# 1 "input.scs" 1
+simulator lang=spectre insensitive=yes
+# 1 "input.scs"
+# 1 "input.scs"
+ 
+//  STIMULI ==============================
+timedomain tran stop=1.0000000000e-07 autostop=no
+//  Active Driver input stimulus
+//  Active Driver is Falling
+//  AvtDrv Input Sensitization=10
+ 
+# 9 "input.scs"
+ 
+vz_a ( z_a 0 ) vsource  type=pwl wave=[ 0.0000000000e+00 1.2000000000e+00 1.0000000000e-09 
++ 1.2000000000e+00 1.0100000000e-09 1.2000000000e+00 1.0750000000e-09 6.0000000000e-01 
++ 1.1400000000e-09 0.0000000000e+00 ] 
+# 17 "input.scs"
+ 
+# 19 "input.scs"
+ 
+# 23 "input.scs"
+ 
+# 33 "Netlist" 2
+# 33 "Netlist"
+//  Output Load Value
+// include  "outputcap.scs" 
+# 1 "outputcap.scs" 1
+simulator lang=spectre insensitive=yes
+# 1 "outputcap.scs"
+# 1 "outputcap.scs"
+parameters adrv_cap = 5.6625127196e-14
+# 35 "Netlist" 2
+# 35 "Netlist"
+ 
+//  ACTIVE DRIVER ========================
+// include "/home/mliang/HeteroTape2/NCXforBool/netlists/buffer_a.scs"
+# 1 "/home/mliang/HeteroTape2/NCXforBool/netlists/buffer_a.scs" 1
+simulator lang=spectre insensitive=yes
+# 1 "/home/mliang/HeteroTape2/NCXforBool/netlists/buffer_a.scs"
+# 2 "/home/mliang/HeteroTape2/NCXforBool/netlists/buffer_a.scs"
+//   Generated for: spectre
+//   Generated on: Oct 17 10:28:31 2014
+//   Design library name: JOLPE_test
+//   Design cell name: buffer_a
+//   Design view name: schematic
+subckt buffer_a ( a gnd vdd z ) 
+# 9 "/home/mliang/HeteroTape2/NCXforBool/netlists/buffer_a.scs"
+//  include "/mscad/foundry/GF_65/chrt65lpe_V1500RF_DK011_IC61_Rev7/cmos10lpe/../models/YI-SM00030/Spectre/design.scs"
+//  include "/mscad/foundry/GF_65/chrt65lpe_V1500RF_DK011_IC61_Rev7/cmos10lpe/../models/YI-SM00050/Spectre/design_rfaddm.scs"
+ 
+//   Library name: JOLPE_test
+//   Cell name: buffer_a
+//   View name: schematic
+T1 (iz a GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 ad=8.8e-14 \
+as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 rf_rsub=1 \
+plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+sb=5.5e-07 sd=0u dtemp=0
+T3 (z iz GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 ad=8.8e-14 \
+as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 rf_rsub=1 \
+plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+sb=5.5e-07 sd=0u dtemp=0
+T0 (iz a VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 ad=8.8e-14 \
+as=8.8e-14 pd=1.42u ps=1.42u nrd=1.5652 nrs=1.5652 rf_rsub=1 \
+plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+sb=5.5e-07 sd=0u dtemp=0
+T2 (z iz VDD VDD) pfet l=120.0n w=360.0n nf=1 m=1 par=1 ngcon=1 ad=1.98e-13 \
+as=1.98e-13 pd=1.82u ps=1.82u nrd=0.5 nrs=0.5 rf_rsub=1 plnest=-1 \
+plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 rgatemod=0 \
+rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p \
+panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 sb=5.5e-07 sd=0u \
+dtemp=0
+# 40 "/home/mliang/HeteroTape2/NCXforBool/netlists/buffer_a.scs"
+ends buffer_a
+# 38 "Netlist" 2
+# 38 "Netlist"
+ 
+//  ACTIVE DRIVER VOLTAGE SOURCES ========
+global gnd
+Vz_VDD z_VDD gnd vsource type=dc dc=1.200000e+00
+Vz_GND z_GND gnd vsource type=dc dc=0.000000e+00
+V0_gnd 0 gnd vsource type=dc dc=0.0
+ 
+//  ACTIVE DRIVER CIRCUIT ==================
+X_AD_BUFFER_A z_a z_GND z_VDD z_z BUFFER_A 
+C_ADRV z_z gnd capacitor c=adrv_cap
+ 
+//  PROBE ================================
+save  z_a z_z
+sppSaveOptions options save=allpub 
+save z_z

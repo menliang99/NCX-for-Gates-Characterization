@@ -1,0 +1,8 @@
+alias measurement transient {
+	export real nc_td, nc_adrv_optr
+	run tran( stop=1.0000000000e-07, autostop='no )
+	nc_td=1.0100000000e-09
+	nc_adrv_optr=deltax(sig1=V(z_z)-1.0800000000e+00, sig2=V(z_z)-1.2000000000e-01, dir1='cross, n1=1, start1=1.0100000000e-09, dir2='cross, n2=1, absstart2=1.0100000000e-09)
+}
+
+run transient as transient1

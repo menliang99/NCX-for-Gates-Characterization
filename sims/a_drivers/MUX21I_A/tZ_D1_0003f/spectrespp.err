@@ -1,0 +1,16 @@
+//--INFORMATION--// SPICE Reader : MDL @version 1.2.2 01/31/2003 
+
+//--WARNING--// SPICE Reader : Node gnd has been aliased to node 0. This may cause problems if an alias of this type already exists in the original netlist.
+ 
+//--WARNING--// SPICE Reader : "Netlist", Line 1170 : 
+	Using LV or LX device function or parameter which is unknown
+	to Spectre and will result in an error/warning during
+	simulation/post processing. Please replace with the equivalent
+	operating point name if available.
+
+	To find the available Spectre operating point names, type:
+			spectre -h <modeltype>
+	For example, information on bsim3v3 devices can be found using:
+			spectre -h bsim3v3 
+
+ 

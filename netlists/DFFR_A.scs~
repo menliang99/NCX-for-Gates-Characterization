@@ -1,0 +1,194 @@
+simulator lang=spice
+// Generated for: spectre
+// Generated on: Oct 17 10:26:56 2014
+// Design library name: 130nm_BOOLEAN_AND_SPECIAL_final
+// Design cell name: DFFR_A
+// Design view name: schematic
+.SUBCKT DFFR_A a b gnd vdd z
+simulator lang=spectre
+
+// Library name: 130nm_BOOLEAN_AND_SPECIAL_final
+// Cell name: DFFR_A
+// View name: schematic
+TPQM1 (Q net147 VDD VDD) pfet l=120.0n w=400n nf=1 m=1 par=1 ngcon=1 \
+        ad=2.2e-13 as=2.2e-13 pd=1.9u ps=1.9u nrd=0.45 nrs=0.45 rf_rsub=1 \
+        plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPL2 (net147 L1_TP VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPR1NC2 (net182 net162 VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 \
+        ngcon=1 ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 \
+        nrs=1.125 rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 \
+        lstis=1 lnws=0 rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p \
+        panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p \
+        sa=5.5e-07 sb=5.5e-07 sd=0u dtemp=0
+TPC2 (L1_TP CLK net168 VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPCN2 (net247 net151 L1_TP VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 \
+        ngcon=1 ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 \
+        nrs=1.125 rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 \
+        lstis=1 lnws=0 rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p \
+        panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p \
+        sa=5.5e-07 sb=5.5e-07 sd=0u dtemp=0
+TPR1N (net162 RN VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPL2C (net182 net147 net168 VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 \
+        ngcon=1 ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 \
+        nrs=1.125 rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 \
+        lstis=1 lnws=0 rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p \
+        panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p \
+        sa=5.5e-07 sb=5.5e-07 sd=0u dtemp=0
+TPCLK (net151 CLK VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPCN1 (net267 net151 net192 VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 \
+        ngcon=1 ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 \
+        nrs=1.125 rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 \
+        lstis=1 lnws=0 rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p \
+        panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p \
+        sa=5.5e-07 sb=5.5e-07 sd=0u dtemp=0
+TPL1T (net192 net247 VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPD (net204 D VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPC1 (net267 CLK net204 VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPR1NC1 (net247 net162 net208 VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 \
+        ngcon=1 ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 \
+        nrs=1.125 rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 \
+        lstis=1 lnws=0 rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p \
+        panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p \
+        sa=5.5e-07 sb=5.5e-07 sd=0u dtemp=0
+TPL1C (net208 net267 VDD VDD) pfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TPQBARM1 (QBAR L1_TP VDD VDD) pfet l=120.0n w=510.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=2.805e-13 as=2.805e-13 pd=2.12u ps=2.12u nrd=0.3529 nrs=0.3529 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNL2 (net147 L1_TP GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNL1T (net249 net247 GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNC1 (net267 CLK net249 GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNCN1 (net267 net151 net261 GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 \
+        ngcon=1 ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 \
+        nrs=1.125 rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 \
+        lstis=1 lnws=0 rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p \
+        panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p \
+        sa=5.5e-07 sb=5.5e-07 sd=0u dtemp=0
+TND (net261 D GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNQM1 (Q net147 GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNL1C (net269 net267 GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNR1NC (L1_TP net162 GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNR1NT (net247 RN net269 GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNCLK (net151 CLK GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNL2C (GND net147 net148 GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNCN2 (L1_TP net151 net148 GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 \
+        ngcon=1 ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 \
+        nrs=1.125 rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 \
+        lstis=1 lnws=0 rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p \
+        panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p \
+        sa=5.5e-07 sb=5.5e-07 sd=0u dtemp=0
+TNC2 (net247 CLK L1_TP GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNR1N (net162 RN GND GND) nfet l=120.0n w=160.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=8.8e-14 as=8.8e-14 pd=1.42u ps=1.42u nrd=1.125 nrs=1.125 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+TNQBARM1 (QBAR L1_TP GND GND) nfet l=120.0n w=880.0n nf=1 m=1 par=1 ngcon=1 \
+        ad=4.84e-13 as=4.84e-13 pd=2.86u ps=2.86u nrd=0.2045 nrs=0.2045 \
+        rf_rsub=1 plnest=-1 plorient=-1 pld200=-1 pwd100=-1 lstis=1 lnws=0 \
+        rgatemod=0 rbodymod=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p \
+        panw6=0p panw7=0p panw8=0p panw9=0p panw10=0p sa=5.5e-07 \
+        sb=5.5e-07 sd=0u dtemp=0
+simulator lang=spice
+.ENDS

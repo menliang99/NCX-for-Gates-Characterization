@@ -1,0 +1,43 @@
+alias measurement transient {
+	export real nc_td, nc_sidecap, cap_z, nc_inref_d1, nc_delay_d1_z, nc_optr_z, nc_fulloptr_z, t_d1_trip1, t_d1_trip2, t_stop_d1, t_stop_z, t_simstop, t_d1_trip_incap1, t_d1_trip_incap2, nc_intg_i_d1, nc_intg_i1_d1, nc_intg_i2_d1, nc_incap_d1, nc_incap_c1_d1, nc_incap_c2_d1, nc_iptr_d1, real_iptr_d1, nc_when_d1, nc_when_sd, nc_when_z, nc_dyn_energy, t_int_energy, nc_int_energy, nc_dyn_eng_gnd, nc_dyn_eng_vdd, nc_dyn_abs_energy, nc_charge_gnd, nc_charge_vdd
+	run tran( stop=3.9000000000e-08, autostop='yes )
+	nc_td=ncxtd
+	nc_sidecap=sidecap
+	cap_z=load_cap
+	nc_inref_d1=cross(sig=V(n_d1)-6.0000000000e-01, dir='cross, n=1, start=ncxtd)
+	nc_delay_d1_z=deltax(sig1=V(n_d1)-6.0000000000e-01, sig2=V(n_z)-6.0000000000e-01, dir1='cross, n1=1, start1=ncxtd, dir2='cross, n2=1, absstart2=ncxtd)
+	nc_optr_z=deltax(sig1=V(n_z)-1.0800000000e+00, sig2=V(n_z)-1.2000000000e-01, dir1='cross, n1=1, start1=ncxtd, dir2='cross, n2=1, absstart2=ncxtd)
+	nc_fulloptr_z=deltax(sig1=V(n_z)-1.1940000000e+00, sig2=V(n_z)-6.0000000000e-03, dir1='cross, n1=1, start1=ncxtd, dir2='cross, n2=1, absstart2=ncxtd)
+	t_d1_trip1=cross(sig=V(n_d1)-1.2000000000e-01, dir='cross, n=1, start=ncxtd)
+	t_d1_trip2=cross(sig=V(n_d1)-1.0800000000e+00, dir='cross, n=1, start=ncxtd)
+	t_stop_d1=cross(sig=V(n_d1)-1.1400000000e+00, dir='cross, n=1, start=ncxtd)
+	t_stop_z=cross(sig=V(n_z)-6.0000000000e-03, dir='cross, n=1, start=ncxtd)
+	t_simstop=max(t_stop_z,t_stop_d1)
+	t_d1_trip_incap1=cross(sig=V(n_d1)-6.0000000000e-03, dir='cross, n=1, start=ncxtd)
+	t_d1_trip_incap2=cross(sig=V(n_d1)-1.0800000000e+00, dir='cross, n=1, start=ncxtd)
+	nc_intg_i_d1=integ(trim(sig=I(vn_d1:1), from=t_d1_trip_incap1, to=t_d1_trip_incap2 ))
+	nc_intg_i1_d1=integ(trim(sig=I(vn_d1:1), from=t_d1_trip_incap1, to=nc_inref_d1 ))
+	nc_intg_i2_d1=integ(trim(sig=I(vn_d1:1), from=nc_inref_d1, to=t_d1_trip_incap2 ))
+	nc_incap_d1=(abs(nc_intg_i_d1 / 1.0740000000e+00))
+	nc_incap_c1_d1=(abs(nc_intg_i1_d1 / 5.9400000000e-01))
+	nc_incap_c2_d1=(abs(nc_intg_i2_d1 / 4.8000000000e-01))
+	nc_iptr_d1=iptr
+	real_iptr_d1=deltax(sig1=V(n_d1)-1.2000000000e-01, sig2=V(n_d1)-1.0800000000e+00, dir1='cross, n1=1, start1=ncxtd, dir2='cross, n2=1, absstart2=ncxtd)
+	nc_when_d1=1
+	nc_when_sd=1
+	nc_when_z=0
+	nc_dyn_energy=integ(trim(sig=(-(I(vn_gnd:1)*V(n_gnd))-(I(vn_vdd:I)*V(n_vdd))), from=ncxtd, to=t_simstop ))
+	t_int_energy=(t_simstop - ncxtd)
+	nc_int_energy=nc_dyn_energy
+	nc_dyn_eng_gnd=integ(trim(sig=(-(I(vn_gnd:1)*V(n_gnd))), from=ncxtd, to=t_simstop ))
+	nc_dyn_eng_vdd=integ(trim(sig=(-(I(vn_vdd:1)*V(n_vdd))), from=ncxtd, to=t_simstop ))
+	nc_dyn_abs_energy=integ(trim(sig=(+abs(I(vn_gnd:1)*V(n_gnd))+abs(I(vn_vdd:I)*V(n_vdd))), from=ncxtd, to=t_simstop ))
+	nc_charge_gnd=integ(trim(sig=I(vn_gnd:1), from=ncxtd, to=t_simstop ))
+	nc_charge_vdd=integ(trim(sig=I(vn_vdd:1), from=ncxtd, to=t_simstop ))
+}
+
+foreach  from swp( paramset=stimdata ) {
+
+	run transient as transient1
+}
+

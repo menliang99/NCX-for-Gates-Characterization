@@ -1,0 +1,195 @@
+area : 102.4000000 ;
+cell_footprint : foot_dffs_a ;
+ncx_ff : true ;
+ff IQ IQN {
+      clocked_on : CLK;
+      next_state : D;
+      preset     : S;
+      }
+
+pin D {
+	direction : input ;
+	input_voltage : default ;
+	capacitance : 0.001;
+
+
+		timing {
+			related_pin : CLK ;
+			timing_type : setup_rising ;
+			ncx_setup_rising_rise_constrained_pin_transition_index : 0 ;
+			ncx_setup_rising_fall_constrained_pin_transition_index : 0 ;
+			ncx_setup_rising_rise_related_pin_transition_index : 0 ;
+			ncx_setup_rising_fall_related_pin_transition_index : 0 ;
+			ncx_wave_rise :
+   			        CLK  01101001 \
+				D    01010011 \
+				S    0\
+				Q    01\
+				QBAR 10 ;
+
+			}
+
+		timing {
+			related_pin : CLK ;
+			timing_type : setup_rising ;
+			ncx_setup_rising_rise_constrained_pin_transition_index : 0 ;
+			ncx_setup_rising_fall_constrained_pin_transition_index : 0 ;
+			ncx_setup_rising_rise_related_pin_transition_index : 0 ;
+			ncx_setup_rising_fall_related_pin_transition_index : 0 ;
+			ncx_wave_fall :
+   			        CLK  01101001 \
+				D    10101100 \
+				S    0\
+				Q    01\
+				QBAR 10 ;
+
+			}
+
+		timing {
+			related_pin : CLK ;
+			timing_type : hold_rising ;
+			ncx_hold_rising_rise_constrained_pin_transition_index : 0 ;
+			ncx_hold_rising_fall_constrained_pin_transition_index : 0 ;
+			ncx_hold_rising_rise_related_pin_transition_index : 0 ;
+			ncx_hold_rising_fall_related_pin_transition_index : 0 ;
+			ncx_wave_fall :
+   			        CLK  01101001011 \
+				D    10101110010 \
+				S    0\
+				Q    10\
+				QBAR 01 ;
+
+			}
+
+		timing {
+			related_pin : CLK ;
+			timing_type : hold_rising ;
+			ncx_hold_rising_rise_constrained_pin_transition_index : 0 ;
+			ncx_hold_rising_fall_constrained_pin_transition_index : 0 ;
+			ncx_hold_rising_rise_related_pin_transition_index : 0 ;
+			ncx_hold_rising_fall_related_pin_transition_index : 0 ;
+			ncx_wave_rise :
+   			        CLK  01101001011 \
+				D    01010001101 \
+				S    0\
+				Q    10\
+				QBAR 01 ;
+			}
+
+}
+
+pin CLK {
+	direction : input ; 
+	clock : true ; 
+	input_voltage : default ;
+	capacitance : 0.001;
+}
+
+pin S {
+	direction : input ;  
+	input_voltage : default ;
+	capacitance : 0.001;
+}
+
+pin Q {
+	direction : output ;
+	max_capacitance : 0.000000 ;
+	output_voltage : default ;
+	function : IQ ;
+	timing { 
+		related_pin : CLK ; 
+
+		timing_type : rising_edge ; 
+		timing_sense : non_unate ; 
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_rise: 
+			S   0000000 \
+			D   0001111 \
+			CLK 0101101 \
+			Q   01 ; 
+	} 
+	timing { 
+		related_pin : CLK ; 
+
+		timing_type : rising_edge ; 
+		timing_sense : non_unate ; 
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_fall: 
+			S   0000000 \
+			D   1110000 \
+			CLK 0101101 \
+			Q   10 ; 
+	} 
+	timing { 
+		related_pin : S; 
+
+		timing_sense : positive_unate ;
+		timing_type : preset ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_rise: 
+			S   00001 \
+			CLK 01011 \
+			D   00000 \
+			Q   01; 
+	} 
+
+}
+
+pin QBAR {
+	direction : output ;
+	max_capacitance : 0.000000 ;
+	output_voltage : default ;
+	function : IQN ;
+	timing { 
+		related_pin : CLK ; 
+
+		timing_type : rising_edge ; 
+		timing_sense : non_unate ; 
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_fall: 
+			S    0000000 \
+			D    0001111 \
+			CLK  0101101 \
+			QBAR 10 ; 
+	} 
+	timing { 
+		related_pin : CLK ; 
+
+		timing_type : rising_edge ;
+		timing_sense : non_unate ; 
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_rise: 
+			S    0000000 \
+			D    1110000 \
+			CLK  0101101 \
+			QBAR 01 ; 
+	} 
+	timing { 
+		related_pin : S; 
+
+		timing_sense : negative_unate ;
+		timing_type : clear ;
+		ncx_rise_total_output_net_capacitance_index : 0 ;
+		ncx_rise_input_net_transistion_index : 0;
+		ncx_wave_fall: 
+			S   00001 \
+			CLK 01011 \
+			D   00000 \
+			QBAR 10; 
+	} 
+}
+
+
+pg_pin (VDD) {
+	voltage_name : "VDD";
+	pg_type : "primary_power";
+	}
+pg_pin (GND) {
+	voltage_name : "GND";
+	pg_type : "primary_ground";
+	}

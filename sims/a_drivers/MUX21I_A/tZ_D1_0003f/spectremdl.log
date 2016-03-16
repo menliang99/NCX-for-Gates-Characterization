@@ -1,0 +1,50 @@
+Defaulting  /home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/MUX21I_A/tZ_D1_0003f/tZ_D1_0003f.mdl as the -batch argument.
+Running /mscad/apps/Linux/cadence/MMSIM101/tools.lnx86/bin/spectre   =mdl /home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/MUX21I_A/tZ_D1_0003f/tZ_D1_0003f.mdl /home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/MUX21I_A/tZ_D1_0003f/tZ_D1_0003f.sp  
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 10.1.1.164.isr11 64bit -- 12 Jul 2011
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved
+        worldwide. Cadence, Virtuoso and Spectre are registered trademarks of
+        Cadence Design Systems, Inc. All others are the property of their
+        respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
+        Security, Inc.
+
+User: mliang   Host: digisrv1   HostID: B8820766   PID: 13972
+Memory  available: 5.7962 GB  physical: 8.3780 GB
+CPU Type: Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz
+          Processor PhysicalID CoreID Frequency
+              0         0        0     2405.8
+              1         0        1     2405.8
+              2         0        2     2405.8
+              3         0        3     2405.8
+
+
+Simulating
+        `/home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/MUX21I_A/tZ_D1_0003f/tZ_D1_0003f.sp'
+        on digisrv1 at 3:02:47 PM, Fri Oct 17, 2014 (process id: 13972).
+
+Error found by spectre.
+    ERROR: line 39, column 15: syntax error before or at: swp
+            unrecognised statement
+    ERROR: line 42, column 1: syntax error before or at: }
+            unrecognised statement
+    ERROR (MDL-6): Failed to parse MDL control file,
+        `/home/mliang/HeteroTape2/NCXforBool/sims/a_drivers/MUX21I_A/tZ_D1_0003f/tZ_D1_0003f.mdl'.
+
+
+Aggregate audit (3:02:48 PM, Fri Oct 17, 2014):
+Time used: CPU = 207 ms, elapsed = 536 ms, util. = 38.6%.
+Time spent in licensing: elapsed = 158 ms, percentage of total = 29.5%.
+Peak memory used = 0 bytes.
+Simulation started at: 3:02:47 PM, Fri Oct 17, 2014, ended at: 3:02:48 PM, Fri
+        Oct 17, 2014, with elapsed time (wall clock): 536 ms.
+spectre completes with 3 errors, 0 warnings, and 0 notices.

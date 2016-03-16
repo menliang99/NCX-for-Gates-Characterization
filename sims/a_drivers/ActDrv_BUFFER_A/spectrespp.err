@@ -1,0 +1,4 @@
+//--INFORMATION--// SPICE Reader : MDL @version 1.2.2 01/31/2003 
+
+//--WARNING--// SPICE Reader : Node gnd has been aliased to node 0. This may cause problems if an alias of this type already exists in the original netlist.
+ 

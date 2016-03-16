@@ -1,0 +1,15 @@
+Exported variables from results directory:  /home/mliang/HeteroTa
+
+Exported variables from results directory:  /home/mliang/HeteroTa
+
+date               :  3:01:32 PM, Fri Oct 17, 2014
+design             :  * Spectre Active Drive Load Cap Acquisition
+simulator          :  spectre
+
+
+Measurement Name   :  transient1
+Analysis Type      :  tran
+nc_adrv_optr       =  8.9875761648e-10
+nc_td              =  1.01e-09
+
+

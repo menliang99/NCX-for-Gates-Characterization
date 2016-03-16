@@ -1,0 +1,42 @@
+# Command file for running Liberty NCX
+# 
+# Fast case, 27C
+
+# Setting up directories
+set output_library /home/mliang/HeteroTape2/NCXforBool/output/130nm_boolean.lib
+set work_dir /home/mliang/HeteroTape2/NCXforBool/ncx_run
+set netlist_dir /home/mliang/HeteroTape2/NCXforBool/netlists
+set netlist_suffix .scs
+set simulation_dir /home/mliang/HeteroTape2/NCXforBool/sims
+set input_template_dir /home/mliang/HeteroTape2/NCXforBool/templatesIn
+set output_template_dir /home/mliang/HeteroTape2/NCXforBool/templatesOut
+
+# Setting up the simulator
+set ncx_exec /mscad/apps/Linux/synopsys_new/NCX/D-2010.06-SP2/ncx/bin/ncx
+set simulator_type spectre
+#set simulator_exec "/mscad/apps/Linux/synopsys/hspice/hspice/linux/hspice"
+set simulator_exec /home/mliang/HeteroTape2/NCXforBool/spectre.sh
+#set model_file "/mscad/foundry/IBM_PDK/cmos9sf/V2.2.0.1IBM/HSPICE/models/hspice_example.include"
+set model_file /home/mliang/HeteroTape2/NCXforBool/design_modified.scs
+# Setting the timing and power
+#set capacitance true
+set timing true
+#set power true
+set constraint true
+set nldm true
+set nlpm false
+set ccs_timing false
+#set ccs_power true
+set compact false
+#set expand_ccs true
+
+
+# Setting the server farm type
+# It looks for a farm by default, so you have to tell it
+# there is no farm.
+set farm_type NoFarm
+
+# Setting the library template
+set library_template_file /home/mliang/HeteroTape2/NCXforBool/templatesIn/a_drivers.opt
+set templates true
+set cleanup 0
